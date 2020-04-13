@@ -1,0 +1,40 @@
+mutation playlistCreate($dryRun: Boolean!, $organisation:ID, $name:String, $description:String, $skills:[ID!],
+    $coverPicture:String, $playlistActivities: [PlaylistActivityIn!],
+    $videos:[VideoIn!]) {
+    createProject(contexts:[badges, playlist], dryRun: $dryRun, organisation: $organisation, name:$name,
+        description: $description, skills:$skills, coverPicture: $coverPicture,
+        playlistActivities: $playlistActivities, playlistActivitiesOrdered: false,
+        isPublic: true, videos: $videos) {
+        ok
+        errors {
+            field
+            code
+            args {
+                name
+                value
+            }
+            parent
+        }
+        project {
+            id
+            name
+            picture
+            pictureMeta {
+                id
+                dominantColor
+            }
+            coverPicture
+            coverMeta {
+                id
+                dominantColor
+            }
+            playlistActivities {
+                id
+                mandatory
+                project {
+                    id
+                }
+            }
+        }
+    }
+}

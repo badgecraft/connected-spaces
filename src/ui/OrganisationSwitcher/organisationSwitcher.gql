@@ -1,0 +1,48 @@
+query organisationSwitcher($offset:Int, $current:ID!, $lang:String) {
+    site(lang:$lang) {
+        id
+        logoUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+        newOrganisers
+    }
+    maybeOrganisation(id:$current) {
+        id
+        organisation {
+            id
+            name
+            picture
+            viewerTeam
+            pictureMeta {
+                id
+                dominantColor
+            }
+            givenEndorsements {
+                total
+            }
+        }
+    }
+    me {
+        id
+        picture
+        organisations(limit:12, offset:$offset, order:asc, sort:name, viewerTeam: ["owners", "admins"]) {
+            total
+            limit
+            offset
+            list {
+                id
+                name
+                picture
+                pictureMeta {
+                    id
+                    dominantColor
+                }
+            }
+        }
+    }
+}

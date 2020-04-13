@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Playlists</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu_Mobile" transform="translate(-264.000000, -8.000000)" fill="#3E3564" fill-rule="nonzero">
+            <g id="Menu">
+                <path d="M269.857493,10.4291549 L274.091303,17.4855042 C274.375451,17.9590845 274.221886,18.5733448 273.748305,18.8574929 C273.59289,18.9507422 273.415054,19 273.23381,19 L264.76619,19 C264.213906,19 263.76619,18.5522847 263.76619,18 C263.76619,17.8187561 263.815448,17.6409196 263.908697,17.4855042 L268.142507,10.4291549 C268.426655,9.95557461 269.040915,9.80200955 269.514496,10.0861577 C269.655245,10.1706075 269.773043,10.2884053 269.857493,10.4291549 Z" id="Playlists" transform="translate(269.000000, 14.000000) rotate(90.000000) translate(-269.000000, -14.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

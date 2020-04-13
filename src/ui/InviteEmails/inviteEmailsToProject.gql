@@ -1,0 +1,29 @@
+mutation inviteEmailsToProject($id:ID!, $to:[UserInviteIn!]!) {
+    inviteToProject4(id:$id, to: $to) {
+        ok
+        errors {
+            field
+            code
+            type
+            parent
+            args {
+                name
+                value
+            }
+        }
+        project {
+            id
+            invites {
+                total
+            }
+            users {
+                total
+            }
+        }
+        invites {
+            updatedInvite
+            updatedUser
+            createdInvite
+        }
+    }
+}

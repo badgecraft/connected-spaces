@@ -1,0 +1,19 @@
+fragment defaultNotificationFragment on Notification {
+    id
+    viewed
+    handled
+    created
+    status
+    perms {
+        handle {
+            stored
+            value
+            reason
+        }
+    }
+    site(excludeCurrent: true) {
+        id
+        siteUrl
+        logoUrl
+    }
+}

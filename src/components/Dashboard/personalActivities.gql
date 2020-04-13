@@ -1,0 +1,15 @@
+#import "../../ui/Activity/activityInListFragment.gql"
+
+query personalActivities($offset:Int) {
+    me {
+        id
+        projects(contexts: [event], offset:$offset, order: asc, sort: name, limit: 12) {
+            total
+            offset
+            limit
+            list {
+                ...activityInListFragment
+            }
+        }
+    }
+}

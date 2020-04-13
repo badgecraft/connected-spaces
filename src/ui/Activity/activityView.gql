@@ -1,0 +1,16 @@
+#import "./activityFragment.gql"
+
+query activityView ($id:ID!) {
+    maybeProject(id: $id) {
+        id
+        error
+        project {
+            ...activityFragment
+            skills {
+                id
+                name
+                type
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+#import "../../Endorsement/endorsementFragment.gql"
+
+fragment endorsementRequestFragment on EndorsementRequestNotification {
+    created
+    endorsement {
+        ...endorsementFragment
+    }
+}

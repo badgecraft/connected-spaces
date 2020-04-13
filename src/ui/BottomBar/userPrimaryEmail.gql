@@ -1,0 +1,11 @@
+query userPrimaryEmail {
+    me {
+        id
+        primaryEmail
+        emails {
+            email
+            primary
+            verified
+        }
+    }
+}

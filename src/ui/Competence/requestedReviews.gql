@@ -1,0 +1,23 @@
+query requestedReviews($id:ID!, $offset:Int) {
+    competenceReviewRequest(id: $id) {
+        id
+        reviews(type: request, offset: $offset) {
+            total
+            limit
+            offset
+            list {
+                id
+                createdAt
+                startedAt
+                finishedAt
+                invite {
+                    email
+                    user {
+                        id
+                        name
+                    }
+                }
+            }
+        }
+    }
+}

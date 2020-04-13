@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Add</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event_Card_Mobile_1" transform="translate(-10.000000, -101.000000)" fill="#FFFFFF">
+            <g id="photo">
+                <g id="Add" transform="translate(11.000000, 102.000000)">
+                    <path d="M40,20 C40,31.0452632 31.0452632,40 20,40 C8.95473684,40 0,31.0452632 0,20 C0,8.95473684 8.95473684,0 20,0 C31.0452632,0 40,8.95473684 40,20 L40,20 Z"
+                          id="Combined-Shape-Copy-4" stroke="#FFFFFF" fill-opacity="0.5" opacity="0.5"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21,19 L26,19 C26.5522847,19 27,19.4477153 27,20 C27,20.5522847 26.5522847,21 26,21 L21,21 L21,26 C21,26.5522847 20.5522847,27 20,27 C19.4477153,27 19,26.5522847 19,26 L19,21 L14,21 C13.4477153,21 13,20.5522847 13,20 C13,19.4477153 13.4477153,19 14,19 L19,19 L19,14 C19,13.4477153 19.4477153,13 20,13 C20.5522847,13 21,13.4477153 21,14 L21,19 Z"
+                          id="Combined-Shape" fill-rule="nonzero"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

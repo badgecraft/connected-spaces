@@ -1,0 +1,105 @@
+query getProject($id: ID!, $lang:String) {
+    site(lang:$lang) {
+        id
+        logoUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+    }
+    maybeProject(id:$id) {
+        id
+        error
+        project {
+            id
+            name
+            type
+            description
+            picture
+            pictureMeta {
+                id
+                dominantColor
+            }
+            coverPicture
+            tz
+            coverMeta {
+                id
+                dominantColor
+                dominantColorType
+            }
+            locationId
+            location {
+                lat
+                lng
+            }
+            address
+            perms {
+                edit { value }
+                leave { value }
+                join { value }
+                createBadgeClass { value }
+            }
+            eventStart
+            eventEnd
+            users {
+                total
+            }
+
+            contacts {
+                name
+                value
+            }
+            website
+            viewerTeam
+            organisationId
+            organisation {
+                id
+                name
+                picture
+            }
+            coHosts {
+                name
+            }
+            category {
+                id
+                name
+            }
+            organisation {
+                id
+                name
+                perms {
+                    view { value }
+                }
+            }
+            contexts
+            badgeClasses {
+                total
+                list {
+                    id
+                    name
+                    picture
+                }
+            }
+            skills(lang:$lang) {
+                id
+                name
+                type
+            }
+            videos {
+                id
+                input
+                type
+            }
+            material {
+                url
+                label
+            }
+            duration {
+                str
+            }
+        }
+    }
+}

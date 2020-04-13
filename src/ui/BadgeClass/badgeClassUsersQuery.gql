@@ -1,0 +1,26 @@
+query badgeClassUsersQuery($id:ID!, $offset:Int) {
+    maybeBadgeClass(id: $id) {
+        id
+        error
+        badgeClass {
+            id
+            issuedBadges(offset: $offset) {
+                total
+                limit
+                offset
+                sort
+                order
+                list {
+                    id
+                    owner {
+                        id
+                        name
+                        picture
+                        primaryEmail
+                    }
+                    created
+                }
+            }
+        }
+    }
+}

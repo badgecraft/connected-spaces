@@ -1,0 +1,21 @@
+fragment projectInviteFragment on ProjectInviteNotification {
+    project {
+        id
+        name
+        picture
+        long {
+            id
+            organisationId
+            viewerTeam
+        }
+        perms {
+            view {
+                value
+            }
+        }
+    }
+    issuer {
+        id
+        displayName
+    }
+}

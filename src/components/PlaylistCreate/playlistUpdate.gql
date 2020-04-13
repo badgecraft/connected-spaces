@@ -1,0 +1,51 @@
+mutation playlistUpdate($id:ID!, $dryRun: Boolean!, $name:String, $description: String, $skills:[ID!],
+    $coverPicture: String, $videos: [VideoIn!], $playlistActivities: [PlaylistActivityIn!]) {
+    updateProject(id:$id, dryRun: $dryRun, name:$name, description: $description, skills: $skills,
+        coverPicture: $coverPicture, videos: $videos, playlistActivities: $playlistActivities) {
+        ok
+        errors {
+            field
+            code
+            args {
+                name
+                value
+            }
+            parent
+        }
+        project {
+            id
+            name
+            description
+            skills {
+                id
+                name
+                type
+            }
+            coverPicture
+            coverMeta {
+                id
+                dominantColor
+            }
+            videos {
+                id
+                input
+                type
+            }
+            playlistActivitiesOrdered
+            playlistActivities {
+                id
+                mandatory
+                project {
+                    id
+                    name
+                    status
+                    picture
+                    pictureMeta {
+                        id
+                        dominantColor
+                    }
+                }
+            }
+        }
+    }
+}

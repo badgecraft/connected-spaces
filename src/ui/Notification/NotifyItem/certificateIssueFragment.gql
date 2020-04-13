@@ -1,0 +1,12 @@
+fragment certificateIssueFragment on CertificateIssuedNotification {
+    certificate {
+        id
+        picture
+        file
+        name
+    }
+    organisation {
+        id
+        name
+    }
+}

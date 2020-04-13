@@ -1,0 +1,13 @@
+subscription notificationBellSubscriptions($platforms: [Platform!]) {
+    updatedViewer {
+        id
+        notifications(platforms: $platforms) {
+            total
+            unhandled
+            unread
+        }
+        tasksToCheck {
+            total
+        }
+    }
+}

@@ -1,0 +1,19 @@
+#import './taskToCheckFragment.gql'
+
+query projectEvidencesToCheck($id:ID!, $offset:Int) {
+    maybeProject(id:$id) {
+        id
+        error
+        project {
+            id
+            tasksToCheck(limit: 20, offset: $offset) {
+                total
+                limit
+                offset
+                list {
+                    ...taskToCheckFragment
+                }
+            }
+        }
+    }
+}

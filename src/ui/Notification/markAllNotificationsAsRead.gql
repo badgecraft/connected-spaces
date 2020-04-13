@@ -1,0 +1,11 @@
+mutation markAllNotificationsAsRead {
+    markAllNotificationsAsRead {
+        id
+        notifications {
+            unread
+            total
+            limit
+            offset
+        }
+    }
+}

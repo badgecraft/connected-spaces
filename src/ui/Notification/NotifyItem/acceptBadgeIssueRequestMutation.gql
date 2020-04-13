@@ -1,0 +1,9 @@
+#import './defaultNotificationFragment.gql'
+#import './badgeIssueRequestFragment.gql'
+
+mutation acceptBadgeIssueRequestMutation($id:ID!) {
+    handleNotification(id:$id, action: accept) {
+        ...defaultNotificationFragment
+        ...badgeIssueRequestFragment
+    }
+}

@@ -1,0 +1,9 @@
+query inviteEmailsToOrganisationInfo($id:ID!) {
+    organisation(id:$id) {
+        id
+        name
+        inviteTeams
+        joinType
+        joinUUID
+    }
+}

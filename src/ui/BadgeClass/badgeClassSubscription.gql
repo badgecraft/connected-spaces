@@ -1,0 +1,7 @@
+#import "./badgeClassFragment.gql"
+
+subscription updatedBadgeClass ($id:ID!) {
+    updatedBadgeClass(id: $id) {
+        ...badgeClassFragment
+    }
+}

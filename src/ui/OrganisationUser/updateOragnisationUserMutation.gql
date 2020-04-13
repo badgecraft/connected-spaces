@@ -1,0 +1,13 @@
+mutation updateOragnisationUserMutation($organisation:ID!, $user:ID!, $action:String!) {
+    updateOrganisationUser(organisation:$organisation, user:$user, action:$action) {
+        id
+        team
+        perms {
+            grantOwner { value }
+            grantAdmin { value }
+            revokeOwner { value }
+            revokeAdmin { value }
+            revokeUser { value }
+        }
+    }
+}

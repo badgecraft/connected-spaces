@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?cca7216b9272b120447e3208330cccbf?#iefix") format("embedded-opentype"),
+url("./icons.woff2?cca7216b9272b120447e3208330cccbf") format("woff2"),
+url("./icons.woff?cca7216b9272b120447e3208330cccbf") format("woff"),
+url("./icons.ttf?cca7216b9272b120447e3208330cccbf") format("truetype"),
+url("./icons.svg?cca7216b9272b120447e3208330cccbf#icons") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-01_calendar:before {
+    content: "\f101";
+}
+.icon-02_context:before {
+    content: "\f102";
+}
+.icon-03_home:before {
+    content: "\f103";
+}
+.icon-04_list:before {
+    content: "\f104";
+}
+.icon-05_location:before {
+    content: "\f105";
+}
+.icon-06_play:before {
+    content: "\f106";
+}
+.icon-07_search:before {
+    content: "\f107";
+}
+.icon-08_attachment:before {
+    content: "\f108";
+}
+.icon-09_close:before {
+    content: "\f109";
+}
+.icon-10_bell:before {
+    content: "\f10a";
+}
+.icon-11_download:before {
+    content: "\f10b";
+}
+.icon-12_remove:before {
+    content: "\f10c";
+}
+.icon-13_upload:before {
+    content: "\f10d";
+}
+.icon-14_add:before {
+    content: "\f10e";
+}
+.icon-15_completed:before {
+    content: "\f10f";
+}
+.icon-16_organiser:before {
+    content: "\f110";
+}
+.icon-17_skill:before {
+    content: "\f111";
+}

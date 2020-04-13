@@ -1,0 +1,23 @@
+query issueBadgePrepare($id:ID!) {
+    maybeBadgeClass(id:$id) {
+        id
+        error
+        badgeClass {
+            id
+            name
+            picture
+            claimCodes {
+                total
+                list {
+                    id
+                    code
+                    multi
+                    used
+                }
+            }
+            perms {
+                issue { value }
+            }
+        }
+    }
+}

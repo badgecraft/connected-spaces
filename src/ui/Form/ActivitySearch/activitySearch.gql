@@ -1,0 +1,28 @@
+query activitySearch($organisation:ID!, $exclude:[ID!], $offset: Int, $inputValue:String) {
+    organisation(id:$organisation) {
+        id
+        projects(exclude: $exclude, contexts: event, limit: 20, offset: $offset, q: $inputValue) {
+            total
+            offset
+            limit
+            q
+            list {
+                id
+                name
+                picture
+                pictureMeta {
+                    id
+                    dominantColor
+                }
+                organisation {
+                    id
+                    name
+                }
+                site(excludeCurrent: true) {
+                    id
+                    title
+                }
+            }
+        }
+    }
+}

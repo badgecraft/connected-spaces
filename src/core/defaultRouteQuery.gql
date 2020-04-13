@@ -1,0 +1,51 @@
+query defaultRouteQuery($lang:String){
+    me {
+        id
+        picture
+        displayName
+        primaryEmail
+        emails {
+            email
+            primary
+            verified
+        }
+        tz
+    }
+    site(lang: $lang) {
+        id
+        logoUrl
+        coverUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+        coFundedBy {
+            image
+            title
+        }
+        colors {
+            primary
+            primaryHover
+            disabled
+        }
+        mapType
+        newOrganisers
+        block1Config {
+            type
+            heading
+            subHeading
+            projectSort
+            projectOrder
+        }
+        block2Config {
+            type
+            heading
+            subHeading
+            projectSort
+            projectOrder
+        }
+    }
+}

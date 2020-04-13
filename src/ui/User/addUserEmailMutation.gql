@@ -1,0 +1,20 @@
+#import "./userEmailsFragment.gql"
+
+mutation addUserEmailMutation($email:String!, $platform:Platform!) {
+    addEmail(email: $email, platform: $platform) {
+        ok
+        errors {
+            field
+            code
+            parent
+            type
+            args {
+                name
+                value
+            }
+        }
+        me {
+            ...userEmailsFragment
+        }
+    }
+}

@@ -1,0 +1,15 @@
+#import './taskToCheckFragment.gql'
+
+query evidencesToCheck($limit:Int, $offset:Int, $platforms:[Platform!]) {
+    me {
+        id
+        tasksToCheck(limit: $limit, offset: $offset, platforms: $platforms, order: desc) {
+            total
+            limit
+            offset
+            list {
+                ...taskToCheckFragment
+            }
+        }
+    }
+}

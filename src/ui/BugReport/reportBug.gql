@@ -1,0 +1,3 @@
+mutation reportBug($type:BugReportEnum, $description:String, $email:String, $redux:String, $apollo:String) {
+    reportBug(category:$type, description:$description, email:$email, redux:$redux, apollo:$apollo)
+}

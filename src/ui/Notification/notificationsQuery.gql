@@ -1,0 +1,37 @@
+#import "./NotifyItem/defaultNotificationFragment.gql"
+#import "./NotifyItem/badgeIssuedFragment.gql"
+#import "./NotifyItem/badgeIssuedOnDepsFragment.gql"
+#import "./NotifyItem/badgeIssueRequestFragment.gql"
+#import "./NotifyItem/certificateIssueFragment.gql"
+#import "./NotifyItem/evidenceCheckedFragment.gql"
+#import "./NotifyItem/organisationInviteFragment.gql"
+#import "./NotifyItem/projectInviteFragment.gql"
+#import "./NotifyItem/readyToStartMissionFragment.gql"
+#import "./NotifyItem/endorsementRequestFragment.gql"
+#import "./NotifyItem/endorsementHandledFragment.gql"
+
+query notificationsQuery($limit:Int, $offset:Int, $platforms: [Platform!]) {
+    me {
+        id
+        notifications(offset: $offset, limit: $limit, platforms: $platforms) {
+            total
+            limit
+            offset
+            unread
+            unhandled
+            list {
+                ...defaultNotificationFragment
+                ...badgeIssuedFragment
+                ...badgeIssuedOnDepsFragment
+                ...badgeIssueRequestFragment
+                ...certificateIssueFragment
+                ...evidenceCheckedFragment
+                ...organisationInviteFragment
+                ...projectInviteFragment
+                ...readyToStartMissionFragment
+                ...endorsementRequestFragment
+                ...endorsementHandledFragment
+            }
+        }
+    }
+}

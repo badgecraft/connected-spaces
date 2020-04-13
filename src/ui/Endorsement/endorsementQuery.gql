@@ -1,0 +1,11 @@
+#import "./endorsementFragment.gql"
+
+query endorsementQuery($id:ID!) {
+    maybeEndorsement(id: $id) {
+        id
+        error
+        endorsement {
+            ...endorsementFragment
+        }
+    }
+}

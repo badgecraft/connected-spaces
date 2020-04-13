@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 100 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Playlist</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile-(Organiser)" transform="translate(-18.000000, -160.000000)" fill="#3E3564" fill-rule="nonzero">
+            <g id="Profile" transform="translate(16.000000, 3.000000)">
+                <g transform="scale(10)">
+                    <path d="M11.5172201,163.673213 L3.68172324,168.311484 C3.15585122,168.622777 2.47376562,168.454542 2.15824241,167.93572 C2.05469678,167.765457 2,167.570632 2,167.372073 L2,158.095531 C2,157.490486 2.49715104,157 3.11041793,157 C3.31167445,157 3.50914719,157.053963 3.68172324,157.156121 L11.5172201,161.794392 C12.0430921,162.105685 12.2136135,162.778627 11.8980903,163.297449 C11.8043157,163.451644 11.6735109,163.580695 11.5172201,163.673213 Z"
+                          id="Playlist"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

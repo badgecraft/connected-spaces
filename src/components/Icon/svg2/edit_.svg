@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Edit</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage1" transform="translate(-122.000000, -145.000000)" fill="#3E3564">
+            <g id="Edit" transform="translate(122.000000, 145.000000)">
+                <g id="Group">
+                    <path d="M17.2401099,3.53035714 L15.6758242,5.09464286 L12.4615385,1.88035714 L14.0686813,0.273214286 C14.432967,-0.0910714286 15.1186813,-0.0910714286 15.5258242,0.273214286 L17.3258242,2.07321429 C17.6472527,2.48035714 17.6472527,3.12321429 17.2401099,3.53035714 Z" id="Path"></path>
+                    <path d="M1.00054375,13.7192308 C2.35054375,14.4049451 3.48625803,15.5192308 4.17197232,16.8478022 L0.550543747,17.8549451 C0.229115175,17.9406593 -0.0708848245,17.6620879 0.0148294612,17.3406593 L1.00054375,13.7192308 Z M5.0076866,16.0978022 C4.27911518,14.7478022 3.14340089,13.5692308 1.79340089,12.8835165 L11.9291152,2.76923077 L15.1434009,5.98351648 L5.0076866,16.0978022 Z" id="Shape" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

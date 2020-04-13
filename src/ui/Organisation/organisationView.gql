@@ -1,0 +1,19 @@
+query organisationView ($id:ID!) {
+    maybeOrganisation(id:$id) {
+        id
+        error
+        organisation {
+            id
+            perms {
+                invite { value }
+            }
+            viewerPreferences {
+                id
+                ident
+                name
+                type
+                value
+            }
+        }
+    }
+}

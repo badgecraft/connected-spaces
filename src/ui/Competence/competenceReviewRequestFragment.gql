@@ -1,0 +1,14 @@
+fragment competenceReviewRequestFragment on CompetenceReviewRequest {
+    id
+    teams
+    areas {
+        id
+        name
+        image
+    }
+    created
+    project {
+        id
+        name
+    }
+}

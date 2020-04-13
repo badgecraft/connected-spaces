@@ -1,0 +1,87 @@
+{
+    "__schema": {
+        "types": [
+            {
+                "kind": "UNION",
+                "name": "QuestTaskEvidence",
+                "possibleTypes": [
+                    { "name": "FileEvidence" },
+                    { "name": "TextEvidence" }
+                ]
+            },
+            {
+                "kind": "UNION",
+                "name": "EndorsementObject",
+                "possibleTypes": [
+                    { "name": "Organisation" },
+                    { "name": "Project" },
+                    { "name": "BadgeClass" }
+                ]
+            },
+            {
+                "kind": "INTERFACE",
+                "name": "Activity",
+                "possibleTypes": [
+                    { "name": "ProjectCreatedActivity" },
+                    { "name": "ProjectJoinActivity" },
+                    { "name": "ProjectLeaveActivity" },
+                    { "name": "OrganisationCreatedActivity" },
+                    { "name": "OrganisationJoinActivity" },
+                    { "name": "OrganisationLeaveActivity" },
+                    { "name": "BadgeIssuedActivity" },
+                    { "name": "EvidenceApprovedActivity" },
+                    { "name": "EvidenceRejectedActivity" },
+                    { "name": "TaskEvidenceApprovedActivity" },
+                    { "name": "TaskEvidenceCanceledActivity" },
+                    { "name": "TaskEvidenceRejectedActivity" },
+                    { "name": "TaskEvidenceSubmittedActivity" },
+                    { "name": "MissionStartedActivity" },
+                    { "name": "MissionCanceledActivity" },
+                    { "name": "MissionFinishedActivity" }
+                ]
+            },
+            {
+                "kind": "INTERFACE",
+                "name": "Notification",
+                "possibleTypes": [
+                    { "name": "BadgeIssueRequestNotification" },
+                    { "name": "ProjectInviteNotification" },
+                    { "name": "OrganisationInviteNotification" },
+                    { "name": "CertificateIssuedNotification" },
+                    { "name": "BadgeIssuedNotification" },
+                    { "name": "EvidenceCheckedNotification" },
+                    { "name": "BadgeIssuedOnDepsNotification" },
+                    { "name": "ReadyToStartMissionNotification" },
+                    { "name": "EndorsementRequestNotification" },
+                    { "name": "EndorsementHandledNotification" }
+                ]
+            },
+            {
+                "kind": "UNION",
+                "name": "AssertionEvidence",
+                "possibleTypes": [
+                    { "name": "AssertEvidenceText" },
+                    { "name": "AssertEvidenceFile" }
+                ]
+            },
+            {
+                "kind": "UNION",
+                "name": "SearchItem",
+                "possibleTypes": [
+                    { "name": "Project" },
+                    { "name": "Organisation" }
+                ]
+            },
+            {
+                "kind": "UNION",
+                "name": "ResolveCodeResult",
+                "possibleTypes": [
+                    { "name": "ResolveCodeOrganisationJoin" },
+                    { "name": "ResolveCodeProjectJoin" },
+                    { "name": "ResolveCodeBadgeClassView" },
+                    { "name": "ResolveCodeBadgeGained" }
+                ]
+            }
+        ]
+    }
+}

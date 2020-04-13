@@ -1,0 +1,19 @@
+mutation updateBadge($id:ID!, $viewPolicy:ViewPolicy, $evidencePolicy:ViewPolicy) {
+    updateBadge(id:$id, viewPolicy: $viewPolicy, evidencePolicy: $evidencePolicy) {
+        ok
+        errors {
+            code
+            field
+            args {
+                name
+                value
+            }
+        }
+        badge {
+            id
+            viewPolicy
+            evidencePolicy
+            isPublic
+        }
+    }
+}

@@ -1,0 +1,28 @@
+mutation inviteToProjectFromFile($project: ID!, $file:ID!) {
+    inviteToProjectFromFile(id: $project, file: $file) {
+        ok
+        errors {
+            field
+            code
+            parent
+            type
+            args {
+                name
+                value
+            }
+        }
+        resultFile {
+            id
+            original
+            publicPath
+        }
+        project {
+            id
+        }
+        details {
+            rows
+            added
+            errors
+        }
+    }
+}

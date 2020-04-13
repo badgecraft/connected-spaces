@@ -1,0 +1,22 @@
+mutation newActivityQuick ($organisation:ID!, $name:String) {
+    createProject(organisation: $organisation, name:$name) {
+        ok
+        errors {
+            field
+            code
+            args {
+                name
+                value
+            }
+        }
+        project {
+            id
+            name
+            picture
+            pictureMeta {
+                id
+                dominantColor
+            }
+        }
+    }
+}

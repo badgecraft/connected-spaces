@@ -1,0 +1,18 @@
+mutation requestOrganisationVerify($id:ID!, $files:[ID!], $comment:String) {
+    requestOrganisationVerify(id: $id, files: $files, comment: $comment) {
+        ok
+        errors {
+            code
+            field
+            parent
+            args {
+                name
+                value
+            }
+        }
+        organisation {
+            id
+            verifyStatus
+        }
+    }
+}

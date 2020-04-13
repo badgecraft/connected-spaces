@@ -1,0 +1,121 @@
+#import './questTaskEvidence.gql'
+
+fragment badgeClassFragment on BadgeClass {
+    id
+    name
+    picture
+    description
+    status
+    perms {
+        mission { value }
+        issue { value }
+        view { value }
+        edit { value }
+        requestEndorsement { value }
+        codes { value }
+    }
+    evidenceRequired
+    minTasksRequired
+    userBadge {
+        id
+        name
+        picture
+        description
+        mine
+        isPublic
+        owner {
+            id
+            displayName
+        }
+        issuer {
+            id
+            name
+            picture
+        }
+        project {
+            id
+            name
+            picture
+        }
+        viewPolicy
+        evidencePolicy
+    }
+    organisation {
+        id
+        name
+        picture
+        pictureMeta {
+            id
+            dominantColor
+        }
+    }
+    projectId
+    project {
+        id
+        name
+        picture
+        pictureMeta {
+            id
+            dominantColor
+        }
+    }
+    criteria {
+        id
+        description
+        checkType
+        checkTypeCount
+        no
+        task {
+            id
+            status
+            evidences {
+                ...questTaskEvidence
+            }
+            feedback {
+                id
+                timestamp
+                comment
+                user {
+                    id
+                    name
+                    picture
+                }
+                value
+            }
+        }
+    }
+    quest {
+        id
+    }
+    depsMet
+    depsCount
+    depsExplicit {
+        id
+        name
+        picture
+        evidenceRequired
+        minTasksRequired
+        projectId
+        status
+        perms {
+            view { value }
+        }
+        userBadge {
+            id
+            mine
+        }
+        quest {
+            id
+        }
+        criteria {
+            id
+            task {
+                id
+                status
+            }
+        }
+    }
+    endorsements {
+        total
+    }
+}

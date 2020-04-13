@@ -1,0 +1,15 @@
+mutation inviteToCompetenceReview($id:ID!, $to:[UserIdentInput!]) {
+    inviteToCompetenceReview(id: $id, to:$to) {
+        ok
+        errors {
+            field
+            code
+            type
+            parent
+            args {
+                name
+                value
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+#import "./evidenceChunkFragment.gql"
+
+query activityEvidenceChunks($id: ID!, $offset: Int) {
+    maybeProject(id: $id) {
+        id
+        error
+        project {
+            id
+            evidenceChunks(limit: 20, offset: $offset) {
+                total
+                limit
+                offset
+                list {
+                    ...evidenceChunkFragment
+                }
+            }
+        }
+    }
+}

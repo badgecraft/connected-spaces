@@ -1,0 +1,91 @@
+query getOpportunities($inputValue:String, $categories: [ID!], $skills: [ID!], $offset:Int, $lang:String,
+    $contexts: [ProjectContext!]!) {
+    site(lang:$lang) {
+        id
+        logoUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+        categories {
+            id
+            name
+            projects(q:$inputValue, contexts:$contexts, skills:$skills, siteFilter: true) {
+                total
+            }
+        }
+    }
+    projects(q: $inputValue, categories: $categories, skills:$skills, contexts:$contexts, limit:12,
+        sort:updatedAt, order:desc, offset: $offset, siteFilter: true) {
+        total
+        offset
+        limit
+        list {
+            id
+            contexts
+            name
+            type
+            color
+            picture
+            coverPicture
+            coverMeta {
+                id
+                dominantColor
+                dominantColorType
+            }
+            tz
+            eventStart
+            address
+            completed
+            viewerTeam
+            perms {
+                edit { value }
+                invite { value }
+                leave { value }
+                join {
+                    value
+                    reason
+                }
+            }
+            location {
+                lat
+                lng
+            }
+            category {
+                id
+                name
+            }
+            organisation {
+                id
+                name
+                perms {
+                    view { value }
+                }
+            }
+            skills {
+                id
+                name
+            }
+            badgeClasses {
+                total
+            }
+            site(excludeCurrent: true) {
+                id
+                logoUrl
+                siteUrl
+            }
+        }
+        skills {
+            id
+            name
+            type
+        }
+        categories {
+            id
+            name
+        }
+    }
+}

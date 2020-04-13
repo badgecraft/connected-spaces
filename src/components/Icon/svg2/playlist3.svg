@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="25px" viewBox="0 0 20 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Playlists" transform="translate(-83.000000, -344.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Playlist" transform="translate(38.000000, 200.000000)">
+                <path d="M56.3592929,147.443612 L67.1003072,165.488516 C67.382792,165.96309 67.2270726,166.576808 66.7524982,166.859293 C66.59778,166.951387 66.4210672,167 66.2410143,167 L44.7589857,167 C44.2067009,167 43.7589857,166.552285 43.7589857,166 C43.7589857,165.819947 43.8075986,165.643234 43.8996928,165.488516 L54.6407071,147.443612 C54.9231919,146.969038 55.5369095,146.813318 56.0114839,147.095803 C56.1545698,147.180973 56.2741227,147.300526 56.3592929,147.443612 Z" id="Triangle" transform="translate(55.500000, 156.500000) rotate(90.000000) translate(-55.500000, -156.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

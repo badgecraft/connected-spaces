@@ -1,0 +1,8 @@
+fragment userPersonalFragment on Viewer {
+    id
+    displayName
+    picture
+    lang
+    tz
+    country
+}

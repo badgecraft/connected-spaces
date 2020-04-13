@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Map-Event" transform="translate(-248.000000, -375.000000)">
+            <g id="Event" transform="translate(16.000000, 49.000000)">
+                <g id="right"
+                   transform="translate(248.000000, 342.000000) scale(-1, 1) translate(-248.000000, -342.000000) translate(233.000000, 327.000000)">
+                    <circle id="Oval-2" stroke="#C4C0D4" stroke-width="0.7" fill="#FFFFFF" cx="15" cy="15" r="15"/>
+                    <polyline id="Stroke-718" stroke="#F3047C" stroke-width="1.4" stroke-linecap="round"
+                              stroke-linejoin="round"
+                              transform="translate(14.122449, 15.551020) rotate(-180.000000) translate(-14.122449, -15.551020) "
+                              points="11 10 17.244898 15.5510204 11 21.1020408"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

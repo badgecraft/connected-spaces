@@ -1,0 +1,35 @@
+fragment evidenceChunkFragment on EvidenceChunk {
+    id
+    createdAt
+    status
+    comment
+    files {
+        id
+        type
+        dominantColor
+        publicPath
+        extension
+        original
+    }
+    user {
+        id
+        name
+        picture
+    }
+    badgeClass {
+        id
+        name
+        picture
+        perms {
+            view { value }
+        }
+        projectId
+    }
+    criterion {
+        id
+        no
+        description
+        checkType
+        checkTypeCount
+    }
+}

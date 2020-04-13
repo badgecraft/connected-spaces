@@ -1,0 +1,3 @@
+mutation leaveActivity($id:ID!) {
+    leaveProject(id: $id)
+}

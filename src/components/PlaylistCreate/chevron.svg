@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>cross</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Playlist-Mobile-1" transform="translate(-289.000000, -72.000000)" fill="#3E3564">
+            <g id="cross" transform="translate(296.500000, 76.500000) scale(1, -1) translate(-296.500000, -76.500000) translate(289.000000, 72.000000)">
+                <g id="Group">
+                    <path d="M13.7854061,0.25650283 L7.49999222,6.66051226 L1.21459556,0.256531132 C0.997631667,0.0354650943 0.64589,0.0354650943 0.428923333,0.256531132 C0.211959444,0.477568868 0.211962222,0.83595566 0.428926111,1.0570217 L6.71431444,7.461 L7.49999222,8.26149057 L8.28566444,7.461 L14.5710783,1.0569934 C14.7880339,0.83595566 14.7880422,0.477568868 14.5710783,0.25650283 C14.3541117,0.0354367925 14.0023617,0.0354650943 13.7854061,0.25650283 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

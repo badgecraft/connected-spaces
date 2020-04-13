@@ -1,0 +1,65 @@
+query getProjects($q:String, $category: ID, $lang:String) {
+    site {
+        id
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        categories {
+            id
+            name
+            projects(contexts:event) {
+                total
+            }
+        }
+    }
+    projects(q: $q, category: $category, contexts:[event, playlist], limit:24, sort:updatedAt, order:desc) {
+        total
+        list {
+            id
+            name
+            color
+            picture
+            coverPicture
+            coverMeta {
+                id
+                dominantColor
+                dominantColorType
+            }
+            eventStart
+            address
+            viewerTeam
+            perms {
+                edit { value }
+                invite { value }
+                join {
+                    value
+                    reason
+                }
+                leave { value }
+            }
+            location {
+                lat
+                lng
+            }
+            category {
+                id
+                name
+            }
+            organisation {
+                id
+                name
+                perms {
+                    view { value }
+                }
+            }
+            skills(lang:$lang) {
+                id
+                name
+            }
+            completed
+        }
+    }
+}

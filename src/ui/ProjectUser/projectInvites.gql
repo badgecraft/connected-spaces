@@ -1,0 +1,22 @@
+query projectInvites ($id:ID!, $offset:Int) {
+    maybeProject(id:$id) {
+        id
+        error
+        project {
+            id
+            inviteTeams
+            invites(limit: 20, offset: $offset) {
+                total
+                offset
+                limit
+                list {
+                    id
+                    email
+                    name
+                    createdAt
+                    team
+                }
+            }
+        }
+    }
+}

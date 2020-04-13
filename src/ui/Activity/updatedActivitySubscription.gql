@@ -1,0 +1,118 @@
+#import "../BadgeClass/badgeClassFragment.gql"
+
+subscription updatedActivity($id:ID!, $lang:String) {
+    updatedProject(id: $id) {
+        id
+        status
+        contexts
+        name
+        type
+        description
+        picture
+        coverPicture
+        tz
+        completed
+        color
+        coverMeta {
+            id
+            dominantColor
+            dominantColorType
+        }
+        locationId
+        location {
+            lat
+            lng
+        }
+        address
+        perms {
+            view { value }
+            edit { value }
+            leave { value }
+            join {
+                value
+                reason
+            }
+            createBadgeClass { value }
+            viewUsers { value }
+            invite { value }
+            remove { value }
+        }
+        eventStart
+        eventEnd
+        users {
+            total
+        }
+
+        contacts {
+            name
+            value
+        }
+        website
+        viewerTeam
+        coHosts {
+            name
+        }
+        category {
+            id
+            name
+        }
+        organisation {
+            id
+            name
+            picture
+            pictureMeta {
+                id
+                dominantColor
+            }
+            perms {
+                view { value }
+            }
+        }
+        organisationId
+        contexts
+        badgeClasses {
+            total
+            list {
+                ...badgeClassFragment
+            }
+        }
+        skills(lang:$lang) {
+            id
+            name
+            type
+        }
+        videos {
+            id
+            input
+            type
+        }
+        stats {
+            usedInPlaylists
+            joinCount
+            issuedCompleteBadges
+        }
+        playlistActivities {
+            id
+            mandatory
+            completed
+            project {
+                id
+                name
+                status
+                picture
+                pictureMeta {
+                    id
+                    dominantColor
+                }
+                site {
+                    id
+                    siteUrl
+                }
+            }
+        }
+        playlistActivitiesOrdered
+        completeBadgeClass {
+            ...badgeClassFragment
+        }
+    }
+}

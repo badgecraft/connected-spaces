@@ -1,0 +1,6 @@
+mutation cancelTaskCheck($id: ID!) {
+    cancelTaskCheck(id: $id) {
+        id
+        status
+    }
+}

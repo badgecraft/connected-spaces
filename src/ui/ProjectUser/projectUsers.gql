@@ -1,0 +1,53 @@
+query projectUsers ($id:ID!, $offset:Int, $q:String, $sort:ProjectUserSort, $order:SortOrder,
+    $userType:ProjectUserTypeFilter) {
+    maybeProject(id:$id) {
+        id
+        error
+        project {
+            id
+            inviteTeams
+            viewerTeam
+            perms {
+                invite { value }
+            }
+            users(sort: $sort, order: $order, offset: $offset, q:$q, type: $userType) {
+                q
+                sort
+                order
+                total
+                offset
+                limit
+                list {
+                    id
+                    name
+                    picture
+                    email
+                    type
+                    project {
+                        id
+                    }
+                    user {
+                        id
+                        picture
+                        displayName
+                        primaryEmail
+                    }
+                    team
+                    perms {
+                        grantOwner { value }
+                        grantManager { value }
+                        revokeOwner { value }
+                        revokeManager { value }
+                        revokeUser { value }
+                        revokeInvite { value }
+                    }
+                    stats {
+                        badgesReceived
+                        quests
+                        certificates
+                    }
+                }
+            }
+        }
+    }
+}

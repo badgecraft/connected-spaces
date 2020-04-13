@@ -1,0 +1,152 @@
+mutation submitTaskEvidence($id:ID!, $comment: String, $files: [String!]) {
+    submitTaskEvidence(id: $id, files: $files, comment: $comment) {
+        added
+        error
+    }
+    requestTaskCheck(id: $id) {
+        submitted
+        error
+        badgeGained {
+            id
+            name
+            picture
+            mine
+            badgeClass {
+                id
+                name
+                picture
+                description
+                status
+                perms {
+                    mission { value }
+                }
+                evidenceRequired
+                minTasksRequired
+                userBadge {
+                    id
+                    name
+                    picture
+                    description
+                    mine
+                    owner {
+                        id
+                        displayName
+                    }
+                    issuer {
+                        id
+                        name
+                        picture
+                    }
+                    project {
+                        id
+                        name
+                        picture
+                    }
+                }
+                organisation {
+                    id
+                    name
+                    picture
+                    pictureMeta {
+                        id
+                        dominantColor
+                    }
+                }
+                projectId
+                project {
+                    id
+                    name
+                    picture
+                    pictureMeta {
+                        id
+                        dominantColor
+                    }
+                }
+                criteria {
+                    id
+                    description
+                    checkType
+                    checkTypeCount
+                    no
+                    task {
+                        id
+                        status
+                        evidences {
+                            __typename
+                            ... on FileEvidence {
+                                id
+                                readOnly
+                                uri
+                                file {
+                                    id
+                                    type
+                                    original
+                                    dominantColor
+                                    publicPath
+                                    extension
+                                }
+                            }
+                            ... on TextEvidence {
+                                id
+                                readOnly
+                                text
+                            }
+                        }
+                    }
+                }
+                depsMet
+                depsCount
+                depsExplicit {
+                    id
+                    name
+                    picture
+                    evidenceRequired
+                    minTasksRequired
+                    projectId
+                    perms {
+                        view { value }
+                    }
+                    userBadge {
+                        id
+                        mine
+                    }
+                    quest {
+                        id
+                    }
+                    criteria {
+                        id
+                        task {
+                            id
+                            status
+                        }
+                    }
+                }
+            }
+        }
+        task {
+            id
+            status
+            evidences {
+                __typename
+                ... on FileEvidence {
+                    id
+                    readOnly
+                    uri
+                    file {
+                        id
+                        type
+                        original
+                        dominantColor
+                        publicPath
+                        extension
+                    }
+                }
+                ... on TextEvidence {
+                    id
+                    readOnly
+                    text
+                }
+            }
+        }
+    }
+}

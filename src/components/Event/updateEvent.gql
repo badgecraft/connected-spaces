@@ -1,0 +1,92 @@
+mutation updateEvent($id: ID!, $name:String!, $description: String!,
+    $coHosts: [CoHostInput]!, $category: ID, $website: String, $eventStart: DateTime, $eventEnd: DateTime,
+    $locationId: String, $coverPicture: String, $contacts: [ContactInput!], $skills: [ID!], $type: ProjectType,
+    $videos: [VideoIn!], $tz:String, $material: [MaterialInput!], $duration:String) {
+    updateProject(
+        id: $id,
+        name: $name,
+        coverPicture: $coverPicture,
+        description: $description,
+        coHosts: $coHosts,
+        website: $website,
+        eventStart: $eventStart,
+        eventEnd: $eventEnd,
+        locationId: $locationId,
+        contexts: [event],
+        category: $category,
+        isPublic: true,
+        contacts: $contacts,
+        skills: $skills,
+        type: $type,
+        videos: $videos,
+        tz: $tz,
+        material: $material,
+        duration: $duration
+    ) {
+        ok
+        errors {
+            field
+            code
+            type
+            parent
+            args {
+                name
+                value
+            }
+        }
+        project {
+            id
+            name
+            type
+            picture
+            tz
+            coverPicture
+            coverMeta {
+                id
+                dominantColor
+                dominantColorType
+            }
+            description
+            coHosts {
+                name
+            }
+            contacts {
+                name
+                value
+            }
+            website
+            eventStart
+            eventEnd
+            location {
+                lat
+                lng
+            }
+            locationId
+            address
+            contexts
+            category {
+                id
+                name
+            }
+            isPublic
+            skills {
+                id
+                name
+                type
+            }
+            videos {
+                id
+                input
+                type
+            }
+            material {
+                url
+                label
+            }
+            duration {
+                seconds
+                str
+            }
+        }
+    }
+}

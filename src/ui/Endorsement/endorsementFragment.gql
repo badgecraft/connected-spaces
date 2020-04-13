@@ -1,0 +1,53 @@
+fragment endorsementFragment on Endorsement {
+    id
+    status
+    requestMessage
+    requestRecipient {
+        name
+        email
+        user {
+            id
+            name
+            primaryEmail
+        }
+    }
+    endorser {
+        id
+        name
+        picture
+    }
+    endorseeUser {
+        id
+        name
+        picture
+    }
+    endorserComment
+    object {
+        __typename
+        ...on BadgeClass {
+            id
+            name
+            picture
+            perms {
+                view { value }
+            }
+            projectId
+        }
+        ...on Project {
+            id
+            name
+            picture
+            perms {
+                view { value }
+            }
+        }
+        ...on Organisation {
+            id
+            name
+            picture
+            perms {
+                view { value }
+            }
+        }
+    }
+}

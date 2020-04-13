@@ -1,0 +1,19 @@
+#import "../../ui/Endorsement/endorsementFragment.gql"
+
+query organisationGivenEndorsements($id:ID!, $offset:Int) {
+    maybeOrganisation(id:$id) {
+        id
+        error
+        organisation {
+            id
+            givenEndorsements(offset: $offset) {
+                total
+                offset
+                limit
+                list {
+                    ...endorsementFragment
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+query notificationBell($platforms: [Platform!]) {
+    me {
+        id
+        notifications(platforms: $platforms) {
+            total
+            unhandled
+            unread
+        }
+        tasksToCheck(platforms: $platforms) {
+            total
+        }
+    }
+}

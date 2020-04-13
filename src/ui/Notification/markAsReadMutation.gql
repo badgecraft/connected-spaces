@@ -1,0 +1,7 @@
+#import './NotifyItem/defaultNotificationFragment.gql'
+
+mutation markNotificationsAsRead($ids:[ID!]!) {
+    markNotificationAsRead(notifications: $ids) {
+        ...defaultNotificationFragment
+    }
+}

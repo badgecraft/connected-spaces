@@ -1,0 +1,11 @@
+mutation reviewTask($id:ID!, $comment:String, $status:TaskReviewStatus!) {
+    reviewTask(id:$id, comment: $comment, status: $status) {
+        success
+        me {
+            id
+            tasksToCheck {
+                total
+            }
+        }
+    }
+}

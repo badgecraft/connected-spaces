@@ -1,0 +1,12 @@
+{
+    me {
+        id
+        organisations(viewerTeam: "owners") {
+            total
+        }
+    }
+    site {
+        id
+        newOrganisers
+    }
+}

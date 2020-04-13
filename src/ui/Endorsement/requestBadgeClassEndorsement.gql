@@ -1,0 +1,18 @@
+mutation requestEndorsementMutation($id:ID!, $requestRecipient:UserIdentInput, $requestMessage: String) {
+    requestBadgeClassEndorsement(id: $id, requestRecipient: $requestRecipient, requestMessage: $requestMessage) {
+        ok
+        errors {
+            field
+            code
+            args {
+                name
+                value
+            }
+            parent
+            type
+        }
+        endorsement {
+            id
+        }
+    }
+}

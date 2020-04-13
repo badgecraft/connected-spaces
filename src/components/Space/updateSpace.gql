@@ -1,0 +1,56 @@
+mutation updateSpace($id: ID!, $name: String, $locationId: String, $picture: String, $description: String,
+    $website: String, $language: String, $country: String, $category: ID, $contacts:[ContactInput!], $isPublic: Boolean,
+    $tz: String, $joinType: OrganisationJoin) {
+    updateOrganisation(
+        id:$id
+        name: $name,
+        locationId: $locationId,
+        picture: $picture,
+        description: $description,
+        website: $website,
+        language: $language,
+        country: $country,
+        category: $category,
+        contacts: $contacts,
+        isPublic: $isPublic,
+        tz: $tz,
+        joinType: $joinType
+    ) {
+        ok
+        errors {
+            field
+            code
+            type
+            parent
+            args {
+                name
+                value
+            }
+        }
+        organisation {
+            id
+            name
+            locationId
+            location {
+                lat
+                lng
+            }
+            address
+            picture
+            description
+            website
+            contacts {
+                name
+                value
+            }
+            language
+            country
+            tz
+            category {
+                id
+                name
+            }
+            isPublic
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>verify</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event_Card_Desktop_1" transform="translate(-384.000000, -398.000000)" fill="#F3047C" fill-rule="nonzero">
+            <g id="organization" transform="translate(16.000000, 395.000000)">
+                <g id="verify" transform="translate(368.000000, 3.000000)">
+                    <path d="M8,0 C3.58736842,0 0,3.58736842 0,8 C0,12.4126316 3.58736842,16 8,16 C12.4126316,16 16,12.4126316 16,8 C16,3.58736842 12.4126316,0 8,0 Z M11.8736842,6.19789474 L7.27578947,11.2673684 C7.15789474,11.4021053 6.93894737,11.4021053 6.80421053,11.2842105 L3.94105263,8.40421053 C3.80631579,8.26947368 3.80631579,8.06736842 3.94105263,7.94947368 L4.78315789,7.10736842 C4.91789474,6.97263158 5.12,6.97263158 5.23789474,7.10736842 L6.98947368,8.87578947 L10.5263158,4.96842105 C10.6442105,4.83368421 10.8463158,4.83368421 10.9810526,4.95157895 L11.8568421,5.74315789 C11.9915789,5.86105263 11.9915789,6.06315789 11.8736842,6.19789474 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

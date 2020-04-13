@@ -1,0 +1,91 @@
+#import "../../ui/BadgeClass/badgeClassFragment.gql"
+
+subscription eventWatch($id: ID!, $lang: String) {
+    updatedProject(id: $id) {
+        id
+        name
+        type
+        description
+        picture
+        coverPicture
+        tz
+        completed
+        coverMeta {
+            id
+            dominantColor
+            dominantColorType
+        }
+        locationId
+        location {
+            lat
+            lng
+        }
+        address
+        perms {
+            view { value }
+            edit { value }
+            leave { value }
+            join {
+                value
+                reason
+            }
+            createBadgeClass { value }
+            viewUsers { value }
+            invite { value }
+            remove { value }
+        }
+        eventStart
+        eventEnd
+        users {
+            total
+        }
+
+        contacts {
+            name
+            value
+        }
+        website
+        viewerTeam
+        coHosts {
+            name
+        }
+        category {
+            id
+            name
+        }
+        organisation {
+            id
+            name
+            picture
+            perms {
+                view { value }
+            }
+        }
+        organisationId
+        contexts
+        badgeClasses {
+            total
+            list {
+                id
+                name
+                picture
+            }
+        }
+        skills(lang:$lang) {
+            id
+            name
+            type
+        }
+        videos {
+            id
+            input
+            type
+        }
+        stats {
+            usedInPlaylists
+        }
+        completeBadgeClass {
+            ...badgeClassFragment
+        }
+    }
+}

@@ -1,0 +1,18 @@
+query redirectToDashboard($id:ID!) {
+    me {
+        id
+        organisations(limit: 1, viewerTeam: ["owners", "admins"], sort: joined, order: desc) {
+            list {
+                id
+                viewerTeam
+            }
+        }
+    }
+    maybeOrganisation(id: $id) {
+        id
+        organisation {
+            id
+            viewerTeam
+        }
+    }
+}

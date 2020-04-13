@@ -1,0 +1,5 @@
+mutation revokeProjectInviteMutation($id:ID!) {
+    revokeProjectInvite(id: $id) {
+        ok
+    }
+}

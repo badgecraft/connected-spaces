@@ -1,0 +1,22 @@
+mutation handleEndorsementMutation($id:ID!, $action:AcceptReject!, $organisation:ID, $comment:String) {
+    handleEndorsementRequest(id: $id, action: $action, comment: $comment, organisation: $organisation) {
+        ok
+        errors {
+            field
+            code
+            parent
+            type
+            args {
+                name
+                value
+            }
+        }
+        endorsement {
+            id
+            status
+            endorser {
+                id
+            }
+        }
+    }
+}

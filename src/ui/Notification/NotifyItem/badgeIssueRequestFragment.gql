@@ -1,0 +1,22 @@
+fragment badgeIssueRequestFragment on BadgeIssueRequestNotification {
+    badgeClass {
+        id
+        name
+        picture
+        perms {
+            view { value }
+        }
+        long {
+            id
+            userBadge {
+                id
+                mine
+            }
+            projectId
+        }
+    }
+    issuer {
+        id
+        displayName
+    }
+}

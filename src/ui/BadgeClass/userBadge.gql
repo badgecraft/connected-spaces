@@ -1,0 +1,56 @@
+#import './questTaskEvidence.gql'
+#import './badgeClassFragment.gql'
+
+query userBadge($id:ID!) {
+    badge(id:$id) {
+        id
+        name
+        picture
+        description
+        mine
+        isPublic
+        owner {
+            id
+            displayName
+        }
+        issuer {
+            id
+            name
+            picture
+        }
+        project {
+            id
+            name
+            picture
+        }
+        perms {
+            attachEvidence { value }
+            obexport { value }
+            remove { value }
+            view { value }
+            policy { value }
+        }
+        viewPolicy
+        evidencePolicy
+        criteria {
+            id
+            description
+            checkType
+            checkTypeCount
+            no
+            task {
+                id
+                status
+                evidences {
+                    ...questTaskEvidence
+                }
+            }
+            evidences {
+                ...questTaskEvidence
+            }
+        }
+        badgeClass {
+            ...badgeClassFragment
+        }
+    }
+}

@@ -1,0 +1,36 @@
+mutation claimCode($code:String!)  {
+    resolveCode(code:$code) {
+        __typename
+        ...on ResolveCodeBadgeGained {
+            badge {
+                id
+                badgeClass {
+                    id
+                    userBadge {
+                        id
+                    }
+                }
+            }
+            gained
+        }
+        ...on ResolveCodeBadgeClassView {
+            error
+            badgeClass {
+                id
+                projectId
+            }
+        }
+        ...on ResolveCodeProjectJoin {
+            project {
+                id
+            }
+            joined
+        }
+        ...on ResolveCodeOrganisationJoin {
+            organisation {
+                id
+            }
+            joined
+        }
+    }
+}

@@ -1,0 +1,13 @@
+query inviteEmailsToProjectInfo($id:ID!) {
+    maybeProject(id: $id) {
+        id
+        error
+        project {
+            id
+            name
+            inviteTeams
+            joinType
+            joinUUID
+        }
+    }
+}

@@ -1,0 +1,65 @@
+query personalActivities($offset:Int) {
+    me {
+        id
+        projects(contexts: [playlist], offset:$offset, order: asc, sort: name, limit:12) {
+            total
+            offset
+            limit
+            list {
+                id
+                contexts
+                name
+                type
+                color
+                picture
+                coverPicture
+                coverMeta {
+                    id
+                    dominantColor
+                    dominantColorType
+                }
+                tz
+                eventStart
+                address
+                viewerTeam
+                perms {
+                    edit { value }
+                    invite { value }
+                    leave { value }
+                    join {
+                        value
+                        reason
+                    }
+                }
+                location {
+                    lat
+                    lng
+                }
+                category {
+                    id
+                    name
+                }
+                organisation {
+                    id
+                    name
+                    perms {
+                        view { value }
+                    }
+                }
+                skills {
+                    id
+                    name
+                }
+                badgeClasses {
+                    total
+                }
+                site(excludeCurrent: true) {
+                    id
+                    logoUrl
+                    siteUrl
+                }
+                completed
+            }
+        }
+    }
+}

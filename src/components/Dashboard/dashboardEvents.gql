@@ -1,0 +1,68 @@
+query dashboardEvents($q:String, $category:ID, $lang:String, $contexts: [ProjectContext!]!, $sort:ProjectSort,
+    $order:SortOrder) {
+    projects(q: $q, category: $category, contexts:$contexts, limit:12, sort:$sort, order:$order,
+        facets:["skill"], siteFilter: true) {
+        total
+        list {
+            id
+            contexts
+            name
+            type
+            color
+            picture
+            completed
+            coverPicture
+            coverMeta {
+                id
+                dominantColor
+                dominantColorType
+            }
+            tz
+            eventStart
+            address
+            viewerTeam
+            perms {
+                edit { value }
+                invite { value }
+                join {
+                    value
+                    reason
+                }
+                leave { value }
+            }
+            location {
+                lat
+                lng
+            }
+            category {
+                id
+                name
+            }
+            organisation {
+                id
+                name
+                perms {
+                    view { value }
+                }
+            }
+            skills(lang:$lang) {
+                id
+                name
+            }
+            badgeClasses {
+                total
+            }
+            site(excludeCurrent: true) {
+                id
+                logoUrl
+                siteUrl
+            }
+        }
+        skillFacet {
+            id
+            name
+            type
+            count
+        }
+    }
+}

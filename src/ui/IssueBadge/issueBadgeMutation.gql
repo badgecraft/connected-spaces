@@ -1,0 +1,16 @@
+mutation issueBadgeMutation($id:ID!,$to:[UserIdentInput!]!) {
+    issueBadges(badgeClass: $id, to:$to) {
+        ok
+        errors {
+            field
+            code
+            args {
+                name
+                value
+            }
+        }
+        badge {
+            id
+        }
+    }
+}

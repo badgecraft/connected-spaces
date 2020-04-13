@@ -1,0 +1,25 @@
+mutation accpetNotification($id:ID!) {
+    handleNotification(id:$id, action:accept){
+        id
+        status
+        __typename
+        ...on ProjectInviteNotification {
+            project {
+                id
+                long {
+                    id
+                    viewerTeam
+                }
+            }
+        }
+        ... on OrganisationInviteNotification {
+            organisation {
+                id
+                long {
+                    id
+                    viewerTeam
+                }
+            }
+        }
+    }
+}

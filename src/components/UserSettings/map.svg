@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="13px" viewBox="0 0 10 13" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Map</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu_Mobile" transform="translate(-191.000000, -8.000000)" fill="#3E3564" fill-rule="nonzero">
+            <g id="Menu">
+                <g id="Map" transform="translate(191.000000, 8.000000)">
+                    <path
+                        d="M9.99999863,5.09457832 C10.0020047,2.23106286 7.80494728,-1.33226763e-14 5.00000774,-1.33226763e-14 C2.19699192,-1.33226763e-14 0,2.23106307 0,5.07878508 C0,8.25674942 4.18224196,12.2446079 4.99806719,13 C5.81004499,12.2393429 9.99999863,8.16718054 9.99999863,5.09457832 Z M2.83570483,4.79290346 C2.78905486,3.67645751 3.77589193,2.75812375 5.00000774,2.75807932 L5.00000774,2.7633883 C6.19575816,2.76432501 7.16486921,3.64072221 7.16590499,4.72214704 C7.16261615,5.82800508 6.14654362,6.71775681 4.91305435,6.67412488 C3.7990279,6.63468665 2.87784962,5.8005235 2.83570483,4.79290346 Z"
+                        id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

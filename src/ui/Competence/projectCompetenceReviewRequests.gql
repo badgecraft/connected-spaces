@@ -1,0 +1,19 @@
+#import "./competenceReviewRequestFragment.gql"
+
+query projectCompetenceReviewRequests($model:ID!, $id:ID!, $offset:Int) {
+    maybeProject(id: $id) {
+        id
+        error
+        project {
+            id
+            reviewRequests(model: $model, offset: $offset) {
+                total
+                offset
+                limit
+                list {
+                    ...competenceReviewRequestFragment
+                }
+            }
+        }
+    }
+}

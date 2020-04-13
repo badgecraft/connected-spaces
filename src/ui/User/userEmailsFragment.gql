@@ -1,0 +1,8 @@
+fragment userEmailsFragment on Viewer {
+    id
+    emails {
+        email
+        verified
+        primary
+    }
+}

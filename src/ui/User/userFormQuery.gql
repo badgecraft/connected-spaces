@@ -1,0 +1,27 @@
+#import "./userPersonalFragment.gql"
+#import "./userEmailsFragment.gql"
+#import "./userConnectionsFragment.gql"
+#import "./userPrivacyFragment.gql"
+
+query userFormQuery {
+    me {
+        ...userPersonalFragment
+        ...userEmailsFragment
+        ...userConnectionsFragment
+        ...userPrivacyFragment
+    }
+    countries {
+        id
+        name
+    }
+    languages {
+        id
+        name
+        nativeName
+        ui
+    }
+    timeZones {
+        id
+        name
+    }
+}

@@ -1,0 +1,22 @@
+query getVerifiedOrganisations($lang:String) {
+    site(lang:$lang) {
+        id
+        logoUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+    }
+
+    organisations(verified:true) {
+        total
+        list {
+            id
+            name
+            picture
+        }
+    }
+}

@@ -1,0 +1,25 @@
+query getNotification($id:ID!) {
+    maybeNotification(id:$id) {
+        id
+        error
+        notification {
+            id
+            handled
+            perms {
+                handle { value }
+                readByUUID { value }
+            }
+            __typename
+            ...on ProjectInviteNotification {
+                project {
+                    id
+                }
+            }
+            ... on OrganisationInviteNotification {
+                organisation {
+                    id
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>badge</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Playlist" transform="translate(-31.000000, -140.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="1" transform="translate(16.000000, 122.000000)">
+                <g id="Badge" transform="translate(15.000000, 18.000000)">
+                    <polygon id="badge" points="0 0 0 14.3772321 9 19 18 14.3772321 18 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

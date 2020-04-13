@@ -1,0 +1,35 @@
+mutation createSpace($name: String, $locationId: String, $picture: String, $description: String,
+$website: String, $language: String, $country: String, $category: ID, $contacts: [ContactInput!],
+$isPublic: Boolean, $tz: String, $joinType: OrganisationJoin
+) {
+    createOrganisation (
+        name: $name,
+        locationId: $locationId,
+        picture: $picture,
+        description: $description,
+        website: $website,
+        language: $language,
+        country: $country,
+        category: $category,
+        contacts: $contacts,
+        isPublic: $isPublic,
+        tz: $tz,
+        joinType: $joinType
+    ) {
+        ok
+        errors {
+            field
+            code
+            type
+            parent
+            args {
+                name
+                value
+            }
+        }
+        organisation {
+            id
+            name
+        }
+    }
+}

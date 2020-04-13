@@ -1,0 +1,45 @@
+query organisationUsers($id:ID!, $offset:Int, $q:String, $sort:OrganisationUserSort, $order:SortOrder,
+    $userType:OrganisationUserTypeFilter) {
+    maybeOrganisation(id: $id) {
+        id
+        error
+        organisation {
+            id
+            inviteTeams
+            users(limit:20, offset: $offset, q:$q, sort: $sort, order: $order, type: $userType) {
+                total
+                limit
+                offset
+                list {
+                    id
+                    team
+                    type
+                    name
+                    email
+                    picture
+                    user {
+                        id
+                        displayName
+                        picture
+                        primaryEmail
+                    }
+                    organisation {
+                        id
+                    }
+                    stats {
+                        badgesReceived
+                        quests
+                    }
+                    perms {
+                        grantOwner { value }
+                        grantAdmin { value }
+                        revokeOwner { value }
+                        revokeAdmin { value }
+                        revokeUser { value }
+                        revokeInvite { value }
+                    }
+                }
+            }
+        }
+    }
+}

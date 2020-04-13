@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event_Card_Desktop_1" transform="translate(-193.000000, -115.000000)" fill="#FFFFFF">
+            <g id="play" transform="translate(194.000000, 116.000000)">
+                <path d="M40,20 C40,31.0452632 31.0452632,40 20,40 C8.95473684,40 0,31.0452632 0,20 C0,8.95473684 8.95473684,0 20,0 C31.0452632,0 40,8.95473684 40,20 L40,20 Z" id="Combined-Shape" stroke="#FFFFFF" fill-opacity="0.5" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M25.3337749,21.4093717 L18.1495881,26.3076809 C17.5221581,26.7354741 16.6667306,26.5736364 16.2389374,25.9462064 C16.0832649,25.7178867 16,25.4479583 16,25.1716183 L16,15.375 C16,14.6156085 16.6156085,14 17.375,14 C17.6513401,14 17.9212684,14.0832649 18.1495881,14.2389374 L25.3337749,19.1372465 C25.9612049,19.5650397 26.1230425,20.4204672 25.6952493,21.0478973 C25.5984124,21.1899247 25.4758023,21.3125348 25.3337749,21.4093717 Z" id="Triangle" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

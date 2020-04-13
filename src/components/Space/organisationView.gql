@@ -1,0 +1,99 @@
+query getOrganisation ($id: ID!, $lang:String) {
+    site(lang:$lang) {
+        id
+        logoUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+    }
+    maybeOrganisation(id:$id) {
+        id
+        error
+        organisation {
+            id
+            name
+            picture
+            pictureMeta {
+                id
+                dominantColor
+                dominantColorType
+            }
+            description
+            verified
+            verifyStatus
+            location {
+                lat
+                lng
+            }
+            locationId
+            address
+            website
+            category {
+                id
+                name
+            }
+            contacts {
+                name
+                value
+            }
+            language
+            country
+            tz
+            perms {
+                createProject { value }
+                edit { value }
+            }
+
+            isPublic
+            joinType
+
+            projects(contexts:event) {
+                total
+                list {
+                    id
+                    name
+                    color
+                    picture
+                    coverPicture
+                    coverMeta {
+                        id
+                        dominantColor
+                        dominantColorType
+                    }
+                    eventStart
+                    address
+                    perms {
+                        edit { value }
+                        invite { value }
+                        join { value }
+                        leave { value }
+                    }
+                    location {
+                        lat
+                        lng
+                    }
+                    category {
+                        id
+                        name
+                    }
+                    organisation {
+                        id
+                        name
+                        perms {
+                            view { value }
+                        }
+                    }
+                    skills(lang:$lang) {
+                        id
+                        name
+                    }
+                    completed
+                }
+            }
+        }
+    }
+}

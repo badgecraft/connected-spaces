@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>place</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Provider-Page" transform="translate(-875.000000, -496.000000)" fill="#3E3564" fill-rule="nonzero">
+            <g id="Contacts" transform="translate(856.000000, 434.000000)">
+                <path d="M24.4984903,62 C21.4674238,62 19,64.4689942 19,67.5049927 C19,70.4539978 24.0517776,76.6309876 24.2676497,76.8920044 C24.3246142,76.9609985 24.4085512,77 24.4984903,77 C24.5884477,77 24.6723848,76.9609985 24.7293493,76.8920044 C24.9452214,76.6309875 30,70.4539978 30,67.5049927 C30,64.4689942 27.5325762,62 24.4984903,62 Z M24.499991,70 C23.1219046,70 22,68.8780913 22,67.5 C22,66.1219087 23.1219047,65 24.499991,65 C25.8780953,65 27,66.1219087 27,67.5 C27,68.8780913 25.8780953,70 24.499991,70 Z" id="place"></path>
+            </g>
+        </g>
+    </g>
+</svg>

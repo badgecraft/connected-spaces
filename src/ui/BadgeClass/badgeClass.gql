@@ -1,0 +1,11 @@
+#import "./badgeClassFragment.gql"
+
+query badgeClass ($id:ID!) {
+    maybeBadgeClass(id:$id) {
+        id
+        error
+        badgeClass {
+            ...badgeClassFragment
+        }
+    }
+}

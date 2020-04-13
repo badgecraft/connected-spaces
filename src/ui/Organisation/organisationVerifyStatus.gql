@@ -1,0 +1,14 @@
+query organisationVerifyStatus($id: ID!) {
+    maybeOrganisation(id: $id) {
+        id
+        error
+        organisation {
+            id
+            name
+            verifyStatus
+            perms {
+                edit { value }
+            }
+        }
+    }
+}

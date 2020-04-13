@@ -1,0 +1,14 @@
+mutation updateProjectUserMutation($project:ID!, $user:ID!, $action:String!) {
+    updateProjectUser(project: $project, user:$user, action:$action) {
+        id
+        team
+        perms {
+            grantOwner { value }
+            grantManager { value }
+            revokeOwner { value }
+            revokeManager { value }
+            revokeUser { value }
+            revokeInvite { value }
+        }
+    }
+}

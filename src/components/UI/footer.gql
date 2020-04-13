@@ -1,0 +1,16 @@
+query footerSite {
+    site {
+        id
+        coFundedBy {
+            image
+            title
+        }
+        footer {
+            title
+            links {
+                title
+                path
+            }
+        }
+    }
+}

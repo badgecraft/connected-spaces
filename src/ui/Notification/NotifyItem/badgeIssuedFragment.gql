@@ -1,0 +1,14 @@
+fragment badgeIssuedFragment on BadgeIssuedNotification {
+    badgeClass {
+        id
+        name
+        picture
+        long {
+            id
+            userBadge {
+                id
+                mine
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "calendar": "\\f101",
+    "context": "\\f102",
+    "home": "\\f103",
+    "list": "\\f104",
+    "location": "\\f105",
+    "play": "\\f106",
+    "search": "\\f107",
+    "attachment": "\\f108",
+    "close": "\\f109",
+    "bell": "\\f10a",
+    "download": "\\f10b",
+    "remove": "\\f10c",
+    "upload": "\\f10d",
+    "add": "\\f10e",
+    "completed": "\\f10f",
+    "organiser": "\\f110",
+    "skill": "\\f111"
+}

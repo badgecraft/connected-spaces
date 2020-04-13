@@ -1,0 +1,20 @@
+#import "./userPersonalFragment.gql"
+
+mutation updateUserPersonalMutation($picture:String, $displayName:String, $country:String, $lang:String, $tz:String) {
+    updateMe(picture:$picture, displayName:$displayName, country:$country, lang: $lang, tz:$tz) {
+        ok
+        errors {
+            field
+            code
+            parent
+            type
+            args {
+                name
+                value
+            }
+        }
+        me {
+            ...userPersonalFragment
+        }
+    }
+}

@@ -1,0 +1,9 @@
+#import './defaultNotificationFragment.gql'
+#import './organisationInviteFragment.gql'
+
+mutation acceptOrganisationInviteMutation($id:ID!) {
+    handleNotification(id:$id, action: accept) {
+        ...defaultNotificationFragment
+        ...organisationInviteFragment
+    }
+}

@@ -1,0 +1,9 @@
+query publishButton($list:[ID!]!) {
+    maybeProjects(list: $list) {
+        id
+        project {
+            id
+            status
+        }
+    }
+}

@@ -1,0 +1,24 @@
+mutation joinActivity($id: ID!) {
+    joinProject(project:$id){
+        id
+        user {
+            id
+            displayName
+        }
+        project {
+            id
+            name
+            viewerTeam
+            perms {
+                view {
+                    value
+                }
+                join {
+                    value
+                    reason
+                }
+                leave { value }
+            }
+        }
+    }
+}

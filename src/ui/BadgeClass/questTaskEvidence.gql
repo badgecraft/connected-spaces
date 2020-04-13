@@ -1,0 +1,21 @@
+fragment questTaskEvidence on QuestTaskEvidence {
+    __typename
+    ... on FileEvidence {
+        id
+        readOnly
+        uri
+        file {
+            id
+            type
+            original
+            dominantColor
+            publicPath
+            extension
+        }
+    }
+    ... on TextEvidence {
+        id
+        readOnly
+        text
+    }
+}

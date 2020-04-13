@@ -1,0 +1,29 @@
+mutation inviteEmailsToOrganisation($id: ID!, $to: [UserInviteIn!]) {
+    inviteToOrganisation3(id: $id, to: $to) {
+        ok
+        errors {
+            code
+            field
+            type
+            parent
+            args {
+                name
+                value
+            }
+        }
+        organisation {
+            id
+            invites {
+                total
+            }
+            users {
+                total
+            }
+        }
+        invites {
+            updatedInvite
+            updatedUser
+            createdInvite
+        }
+    }
+}

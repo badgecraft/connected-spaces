@@ -1,0 +1,16 @@
+mutation setPreferencesMutation($preferences: [PreferenceInput!]!) {
+    setPreferences(preferences: $preferences) {
+        ok
+        errors {
+            field
+            code
+        }
+        preferences {
+            id
+            ident
+            type
+            name
+            value
+        }
+    }
+}

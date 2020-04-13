@@ -1,0 +1,24 @@
+fragment evidenceCheckedFragment on EvidenceCheckedNotification {
+    badgeClass {
+        id
+        name
+        picture
+        perms {
+            view { value }
+        }
+        long {
+            id
+            projectId
+            quest {
+                id
+            }
+        }
+    }
+    task {
+        id,
+        criterion {
+            id
+        }
+    }
+    checkStatus
+}

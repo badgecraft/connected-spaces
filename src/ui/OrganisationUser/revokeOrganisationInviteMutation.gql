@@ -1,0 +1,5 @@
+mutation revokeOrganisationInviteMutation ($id:ID!){
+    revokeOrganisationInvite(id:$id) {
+        ok
+    }
+}

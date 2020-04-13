@@ -1,0 +1,146 @@
+#import "../BadgeClass/badgeClassFragment.gql"
+#import "./activityInListFragment.gql"
+
+fragment activityFragment on Project {
+    ...activityInListFragment
+    id
+    status
+    contexts
+    name
+    type
+    description
+    picture
+    coverPicture
+    tz
+    completed
+    color
+    coverMeta {
+        id
+        dominantColor
+        dominantColorType
+    }
+    locationId
+    location {
+        lat
+        lng
+    }
+    address
+    perms {
+        view { value }
+        edit { value }
+        leave { value }
+        join {
+            value
+            reason
+        }
+        createBadgeClass { value }
+        viewUsers { value }
+        invite { value }
+        remove {
+            value
+            reason
+        }
+        evidenceView { value }
+    }
+    eventStart
+    eventEnd
+    users {
+        total
+    }
+
+    contacts {
+        name
+        value
+    }
+    website
+    viewerTeam
+    coHosts {
+        name
+    }
+    category {
+        id
+        name
+    }
+    organisation {
+        id
+        name
+        picture
+        pictureMeta {
+            id
+            dominantColor
+        }
+        perms {
+            view { value }
+        }
+    }
+    organisationId
+    contexts
+    badgeClasses(withDrafts: true) {
+        total
+        list {
+            ...badgeClassFragment
+        }
+    }
+    videos {
+        id
+        input
+        type
+    }
+    material {
+        url
+        label
+    }
+    stats {
+        usedInPlaylists
+        joinCount
+        issuedCompleteBadges
+    }
+    playlistActivities {
+        id
+        mandatory
+        completed
+        project {
+            id
+            type
+            name
+            status
+            picture
+            pictureMeta {
+                id
+                dominantColor
+            }
+            site {
+                id
+                siteUrl
+            }
+            duration {
+                seconds
+            }
+        }
+    }
+    playlistActivitiesOrdered
+    completeBadgeClass {
+        ...badgeClassFragment
+    }
+    duration {
+        seconds
+    }
+    site(excludeCurrent: true) {
+        id
+        logoUrl
+        siteUrl
+    }
+    viewerPreferences {
+        id
+        ident
+        name
+        type
+        value
+    }
+    usedInPlaylists {
+        total
+        list {
+            id
+        }
+    }
+}

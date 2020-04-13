@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>pin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Opportunity-Page" transform="translate(-521.000000, -1456.000000)" fill-rule="nonzero">
+            <g id="Location" transform="translate(274.000000, 1257.000000)">
+                <g transform="translate(23.000000, 57.000000)" id="pin">
+                    <g transform="translate(224.000000, 142.000000)">
+                        <circle id="Oval" fill="#F3047C" cx="16" cy="16" r="16"></circle>
+                        <g id="noun_Pin_1398624" transform="translate(9.411765, 6.588235)" fill="#FFFFFF">
+                            <path d="M6.58642693,0 C2.95563062,0 0,3.0983456 0,6.90822611 C0,10.6089384 6.05132716,18.360455 6.30991195,18.6880055 C6.37814746,18.7745864 6.4786924,18.8235294 6.58642693,18.8235294 C6.69418338,18.8235294 6.79472832,18.7745864 6.86296383,18.6880055 C7.12154861,18.3604549 13.1764706,10.6089384 13.1764706,6.90822607 C13.1764706,3.0983456 10.22084,0 6.58642693,0 Z M6.58642693,10.1044577 C4.90570243,10.1044577 3.53741906,8.67010568 3.53741906,6.90822611 C3.53741906,5.14634654 4.90570246,3.7119945 6.58642693,3.7119945 C8.26717335,3.7119945 9.63545675,5.14634654 9.63545675,6.90822611 C9.63545675,8.67010568 8.26717335,10.1044577 6.58642693,10.1044577 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

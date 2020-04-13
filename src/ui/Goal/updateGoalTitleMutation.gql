@@ -1,0 +1,19 @@
+mutation updateGoalTitle($id: ID!, $value:String) {
+    updateGoal(id: $id, title: $value) {
+        ok
+        errors {
+            field
+            code
+            type
+            parent
+            args {
+                name
+                value
+            }
+        }
+        goal {
+            id
+            title
+        }
+    }
+}

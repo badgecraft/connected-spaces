@@ -1,0 +1,18 @@
+fragment organisationInviteFragment on OrganisationInviteNotification {
+    organisation {
+        id
+        name
+        picture
+        perms {
+            view { value }
+        }
+        long {
+            id
+            viewerTeam
+        }
+    }
+    issuer {
+        id
+        displayName
+    }
+}

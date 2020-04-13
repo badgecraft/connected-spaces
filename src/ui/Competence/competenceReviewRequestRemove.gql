@@ -1,0 +1,3 @@
+mutation competenceReviewRequestRemove($id:ID!) {
+    removeCompetenceReviewRequest(id: $id)
+}

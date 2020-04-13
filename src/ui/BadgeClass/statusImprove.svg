@@ -1,0 +1,26 @@
+<svg width="30" height="30" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>status__needs-improvement</title>
+    <desc>Created using Figma</desc>
+    <g id="Canvas" transform="translate(1127 224)">
+        <g id="Atoms/Indicators/status__needs-improvement">
+            <g id="Oval 2">
+                <use xlink:href="#path0_fill" transform="translate(-1127 -224)" fill="#EB5757"/>
+            </g>
+            <g id="Path 4">
+                <use xlink:href="#path1_stroke" transform="translate(-1117 -214)" fill="#FFFFFF"/>
+            </g>
+            <g id="Path 4 Copy">
+                <use xlink:href="#path2_stroke" transform="translate(-1110 -218)" fill="#FFFFFF"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <path id="path0_fill"
+              d="M 15 30C 23.2843 30 30 23.2843 30 15C 30 6.71573 23.2843 0 15 0C 6.71573 0 0 6.71573 0 15C 0 23.2843 6.71573 30 15 30Z"/>
+        <path id="path1_stroke"
+              d="M 0 14L -0.9 14L -0.9 15.4562L 0.402492 14.805L 0 14ZM 4 12L 4.40249 12.805L 4.67082 12.6708L 4.80498 12.4025L 4 12ZM 9 2L 9.80498 2.40249L 10.2075 1.59751L 9.40249 1.19502L 9 2ZM 5 0L 5.40249 -0.804984L 4.59751 -1.20748L 4.19502 -0.402492L 5 0ZM 0 10L -0.804984 9.59751L -0.9 9.78754L -0.9 10L 0 10ZM 0.402492 14.805L 4.40249 12.805L 3.59751 11.195L -0.402492 13.195L 0.402492 14.805ZM 4.80498 12.4025L 9.80498 2.40249L 8.19502 1.59751L 3.19502 11.5975L 4.80498 12.4025ZM 9.40249 1.19502L 5.40249 -0.804984L 4.59751 0.804984L 8.59751 2.80498L 9.40249 1.19502ZM 4.19502 -0.402492L -0.804984 9.59751L 0.804984 10.4025L 5.80498 0.402492L 4.19502 -0.402492ZM -0.9 10L -0.9 14L 0.9 14L 0.9 10L -0.9 10Z"/>
+        <path id="path2_stroke"
+              d="M 3.55279 2.89443L 4.44721 3.34164L 5.34164 1.55279L 4.44721 1.10557L 3.55279 2.89443ZM 0.447214 -0.894427L -0.447214 -1.34164L -1.34164 0.447214L -0.447214 0.894427L 0.447214 -0.894427ZM 4.44721 1.10557L 0.447214 -0.894427L -0.447214 0.894427L 3.55279 2.89443L 4.44721 1.10557Z"/>
+    </defs>
+</svg>

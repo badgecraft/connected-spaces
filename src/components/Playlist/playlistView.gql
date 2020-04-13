@@ -1,0 +1,93 @@
+query playlistView ($id:ID!, $lang:String) {
+    site(lang:$lang) {
+        id
+        logoUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+    }
+    maybeProject(id:$id) {
+        id
+        error
+        project {
+            id
+            status
+            name
+            description
+            picture
+            completed
+            coverPicture
+            contexts
+            coverMeta {
+                id
+                dominantColor
+            }
+            skills(lang: $lang) {
+                id
+                name
+                type
+            }
+            organisationId
+            organisation {
+                id
+                name
+                picture
+                pictureMeta {
+                    id
+                    dominantColor
+                }
+            }
+            playlistActivities {
+                id
+                mandatory
+                completed
+                project {
+                    id
+                    name
+                    status
+                    picture
+                    pictureMeta {
+                        id
+                        dominantColor
+                    }
+                    site {
+                        id
+                        siteUrl
+                    }
+                }
+            }
+            playlistActivitiesOrdered
+            videos {
+                id
+                input
+                type
+            }
+            perms {
+                view { value }
+                remove { value }
+                edit { value }
+                viewUsers { value }
+                invite { value }
+                join { value }
+                leave { value }
+                createBadgeClass { value }
+            }
+            stats {
+                joinCount
+                issuedCompleteBadges
+            }
+            badgeClasses {
+                total
+                list {
+                    id
+                    name
+                    picture
+                }
+            }
+        }
+    }
+}

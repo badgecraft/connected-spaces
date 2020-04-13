@@ -1,0 +1,8 @@
+fragment userConnectionsFragment on Viewer {
+    id
+    connections {
+        id
+        type
+        display
+    }
+}

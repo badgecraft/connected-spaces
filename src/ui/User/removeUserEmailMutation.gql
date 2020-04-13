@@ -1,0 +1,10 @@
+#import "./userEmailsFragment.gql"
+
+mutation removeUserEmailMutation($email:String!) {
+    removeEmail(email: $email) {
+        ok
+        me {
+            ...userEmailsFragment
+        }
+    }
+}

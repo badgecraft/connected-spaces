@@ -1,0 +1,26 @@
+#import '../../BadgeClass/questTaskEvidence.gql'
+fragment taskToCheckFragment on QuestTask {
+    id
+    evidences {
+        ...questTaskEvidence
+    }
+    user {
+        id
+        name
+        picture
+    }
+    badgeClass {
+        id
+        name
+        picture
+        projectId
+        perms {
+            view { value }
+        }
+    }
+    criterion {
+        id
+        no
+        description
+    }
+}

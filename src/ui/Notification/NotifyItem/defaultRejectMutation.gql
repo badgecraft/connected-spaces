@@ -1,0 +1,7 @@
+#import "./defaultNotificationFragment.gql"
+
+mutation defaultRejectMutation($id: ID!) {
+    handleNotification(id: $id, action: reject) {
+        ...defaultNotificationFragment
+    }
+}

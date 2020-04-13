@@ -1,0 +1,5 @@
+{
+    "name": "Ago",
+    "main": "./Ago.js",
+    "private": true
+}

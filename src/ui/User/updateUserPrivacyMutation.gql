@@ -1,0 +1,22 @@
+#import "./userPrivacyFragment.gql"
+
+mutation updateUserPrivacyMutation($defaultBadgePolicy:ViewPolicy, $defaultEvidencePolicy:ViewPolicy,
+    $emailViewType:EmailViewType) {
+    updateMe(defaultBadgePolicy:$defaultBadgePolicy, defaultEvidencePolicy:$defaultEvidencePolicy,
+        emailViewType: $emailViewType) {
+        ok
+        errors {
+            field
+            code
+            parent
+            type
+            args {
+                name
+                value
+            }
+        }
+        me {
+            ...userPrivacyFragment
+        }
+    }
+}

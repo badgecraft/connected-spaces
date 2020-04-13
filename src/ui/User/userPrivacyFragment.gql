@@ -1,0 +1,6 @@
+fragment userPrivacyFragment on Viewer {
+    id
+    defaultBadgePolicy
+    defaultEvidencePolicy
+    emailViewType
+}

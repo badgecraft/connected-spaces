@@ -1,0 +1,11 @@
+#import "../Activity/activityInListFragment.gql"
+
+query ActivityCardPickerG($id:ID!) {
+    maybeProject(id: $id) {
+        id
+        error
+        project {
+            ...activityInListFragment
+        }
+    }
+}

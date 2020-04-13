@@ -1,0 +1,19 @@
+#import './endorsementFragment.gql'
+
+query badgeClassEndorsementsQuery($id:ID!, $offset:Int) {
+    maybeBadgeClass(id:$id) {
+        id
+        error
+        badgeClass {
+            id
+            endorsements(offset: $offset) {
+                total
+                offset
+                limit
+                list {
+                    ...endorsementFragment
+                }
+            }
+        }
+    }
+}

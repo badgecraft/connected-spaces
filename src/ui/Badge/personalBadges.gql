@@ -1,0 +1,18 @@
+query personalBadges ($offset:Int) {
+    me {
+        id
+        badges(offset: $offset, sort:createdAt, order: desc, limit:12) {
+            total
+            limit
+            offset
+            list {
+                id
+                name
+                picture
+                perms {
+                    view { value }
+                }
+            }
+        }
+    }
+}

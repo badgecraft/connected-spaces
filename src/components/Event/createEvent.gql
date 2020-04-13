@@ -1,0 +1,43 @@
+mutation createEvent($name:String, $description: String, $organisation: ID,
+    $coHosts: [CoHostInput!], $category: ID, $website: String, $eventStart: DateTime, $eventEnd: DateTime,
+    $locationId: String, $coverPicture: String, $contacts: [ContactInput!], $contexts: [ProjectContext!],
+    $skills: [ID!], $type:ProjectType, $videos: [VideoIn!], $tz:String, $material: [MaterialInput!], $duration: String
+) {
+    createProject(
+        name: $name,
+        coverPicture: $coverPicture,
+        description: $description,
+        organisation: $organisation,
+        coHosts: $coHosts,
+        website: $website,
+        eventStart: $eventStart,
+        eventEnd: $eventEnd,
+        locationId: $locationId,
+        contexts: $contexts,
+        category: $category,
+        isPublic: true,
+        contacts: $contacts,
+        skills: $skills,
+        type: $type,
+        videos: $videos,
+        tz: $tz,
+        material: $material,
+        duration: $duration
+    ) {
+        ok
+        errors {
+            field
+            code
+            type
+            parent
+            args {
+                name
+                value
+            }
+        }
+        project {
+            id
+            name
+        }
+    }
+}

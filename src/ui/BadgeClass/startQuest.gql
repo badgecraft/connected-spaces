@@ -1,0 +1,10 @@
+#import "./badgeClassFragment.gql"
+
+mutation startQuest ($id:ID!) {
+    startQuest(id: $id) {
+        started
+        badgeClass {
+            ...badgeClassFragment
+        }
+    }
+}

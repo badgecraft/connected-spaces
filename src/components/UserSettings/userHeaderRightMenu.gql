@@ -1,0 +1,13 @@
+query userHeaderRightMenu($organisationId:ID!) {
+    maybeOrganisation(id:$organisationId) {
+        id
+        organisation {
+            id
+            picture
+            pictureMeta {
+                id
+                dominantColor
+            }
+        }
+    }
+}

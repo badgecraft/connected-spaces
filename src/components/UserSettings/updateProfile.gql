@@ -1,0 +1,22 @@
+mutation updateProfile($displayName:String, $picture:String, $defaultBadgePolicy:ViewPolicy,
+    $defaultEvidencePolicy:ViewPolicy) {
+    updateMe(displayName:$displayName, picture:$picture, defaultBadgePolicy: $defaultBadgePolicy,
+        defaultEvidencePolicy: $defaultEvidencePolicy) {
+        ok
+        me {
+            id
+            displayName
+            picture
+            defaultBadgePolicy
+            defaultEvidencePolicy
+        }
+        errors {
+            code
+            field
+            args {
+                name
+                value
+            }
+        }
+    }
+}

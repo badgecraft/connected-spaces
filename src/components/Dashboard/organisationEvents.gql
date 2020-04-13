@@ -1,0 +1,72 @@
+query organisationEvents($id:ID!, $lang:String, $offset:Int) {
+    site(lang:$lang) {
+        id
+        logoUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+    }
+    organisation(id: $id) {
+        id
+        projects(displayAll: true, contexts: [event], limit:12, offset: $offset) {
+            total
+            limit
+            offset
+            list {
+                id
+                contexts
+                name
+                type
+                color
+                picture
+                coverPicture
+                coverMeta {
+                    id
+                    dominantColor
+                    dominantColorType
+                }
+                tz
+                eventStart
+                address
+                perms {
+                    edit { value }
+                    invite { value }
+                    join { value }
+                    leave { value }
+                }
+                location {
+                    lat
+                    lng
+                }
+                category {
+                    id
+                    name
+                }
+                organisation {
+                    id
+                    name
+                    perms {
+                        view { value }
+                    }
+                }
+                skills(lang:$lang) {
+                    id
+                    name
+                }
+                badgeClasses {
+                    total
+                }
+                site(excludeCurrent: true) {
+                    id
+                    logoUrl
+                    siteUrl
+                }
+                completed
+            }
+        }
+    }
+}

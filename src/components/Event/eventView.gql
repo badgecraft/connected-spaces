@@ -1,0 +1,22 @@
+#import "./eventFragment.gql"
+
+query eventView($id: ID!, $lang:String) {
+    site(lang:$lang) {
+        id
+        logoUrl
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+    }
+    maybeProject(id:$id) {
+        id
+        error
+        project {
+            ...eventFragment
+        }
+    }
+}

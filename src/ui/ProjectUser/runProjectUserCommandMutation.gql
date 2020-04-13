@@ -1,0 +1,14 @@
+mutation runProjectUserCommandMutation($id:ID!, $command:String!) {
+    runProjectUserCommand(id: $id, command: $command) {
+        projectUser {
+            id
+            team
+            perms {
+                grantOwner { value }
+                revokeOwner { value }
+                grantManager { value }
+                revokeManager { value }
+            }
+        }
+    }
+}

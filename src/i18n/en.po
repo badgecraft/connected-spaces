@@ -1,0 +1,2999 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Language: en\n"
+
+#: src/ui/uiStringifyDuration.js:7
+msgid "${ value } second"
+msgid_plural "${ value } seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/uiStringifyDuration.js:9
+msgid "${ value } minute"
+msgid_plural "${ value } minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/uiStringifyDuration.js:11
+msgid "${ value } hour"
+msgid_plural "${ value } hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/uiStringifyDuration.js:13
+msgid "${ value } day"
+msgid_plural "${ value } days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/uiStringifyDuration.js:15
+msgid "${ value } month"
+msgid_plural "${ value } months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/uiStringifyDuration.js:17
+msgid "${ value } year"
+msgid_plural "${ value } years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/IssueBadge/IssueBadgeFormView.js:62
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:73
+#: src/ui/UserInvite/UserInviteFormAdd.js:36
+msgid "Close"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:290
+#: src/components/Form/Uploader/Cropper.js:105
+#: src/components/PlaylistCreate/PlaylistActions.js:12
+#: src/components/Space/SpaceForm.js:117
+#: src/ui/BugReport/BugReportFormView.js:85 src/ui/Form/Uploader/Cropper.js:114
+#: src/ui/InviteEmails/InviteEmailsSingleView.js:74
+#: src/ui/IssueBadge/IssueBadgeFormView.js:62
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:73
+#: src/ui/User/AddUserEmailFormView.js:21
+#: src/ui/UserInvite/UserInviteFormAdd.js:36
+msgid "Cancel"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsSingleView.js:82
+#: src/ui/UserInvite/UserInviteFormAdd.js:44
+msgid "Invite"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteFormUpload.js:22
+msgid "example file"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteFormUpload.js:25
+msgid "Add users from spreadsheet file"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteFormUpload.js:27
+msgid "Download ${ exampleFile }, add people you want to invite and upload"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteUploadStatusFailed.js:11
+msgid "Only CSV, XLS files are supported"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteUploadStatusFailed.js:12
+msgid "Invalid file format, please check example file"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteUploadStatusSuccess.js:30
+msgid "File uploaded"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteUploadStatusSuccess.js:31
+msgid ""
+"Rows found: ${ rowCount }, invited: ${ addCount }, errors: ${ errorCount }"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteUploadStatusSuccess.js:32
+msgid "Get result file with details: ${ file }"
+msgstr ""
+
+#: src/ui/UserInvite/UserInviteView.js:123
+msgid "Sent."
+msgstr ""
+
+#: src/ui/User/AddUserEmailForm.js:21
+msgid "Please provide a valid email"
+msgstr ""
+
+#: src/ui/User/AddUserEmailForm.js:22
+msgid "Email you'v provided is already use by other user"
+msgstr ""
+
+#: src/ui/Form/CoHosts.js:63 src/ui/Form/Material.js:74
+#: src/ui/InviteEmails/InviteEmailsManyView.js:41
+#: src/ui/User/AddUserEmailFormView.js:22
+msgid "Add"
+msgstr ""
+
+#: src/ui/User/AddUserEmailFormView.js:25 src/ui/User/UserEmailsFormView.js:16
+msgid "Add email"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsSingleView.js:62
+#: src/ui/User/AddUserEmailFormView.js:31
+msgid "Email"
+msgstr ""
+
+#: src/ui/User/UserConnectionsFormView.js:35
+msgid "Facebook"
+msgstr ""
+
+#: src/ui/User/UserConnectionsFormView.js:37
+msgid "Google"
+msgstr ""
+
+#: src/ui/User/UserConnectionsFormView.js:39
+msgid "VK"
+msgstr ""
+
+#: src/ui/User/UserConnectionsFormView.js:47
+msgid "Connections"
+msgstr ""
+
+#: src/ui/User/UserConnectionsFormView.js:48
+msgid "Connections are ways you login to Badgecraft"
+msgstr ""
+
+#: src/ui/User/UserEmailsForm.js:26
+msgid "${ email } added. Check inbox and fallow link to verify"
+msgstr ""
+
+#: src/ui/User/UserEmailsForm.js:43
+msgid "Email ${ email } removed"
+msgstr ""
+
+#: src/ui/User/UserEmailsForm.js:50
+msgid "Email ${ email } now is primary"
+msgstr ""
+
+#: src/ui/User/UserEmailsForm.js:57
+msgid "Check your ${ email } inbox and fallow the link to verify"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:94 src/components/UI/Footer.js:112
+#: src/ui/User/UserEmailsFormView.js:59
+msgid "Contacts"
+msgstr ""
+
+#: src/ui/User/UserEmailsFormView.js:65
+msgid "Primary email"
+msgstr ""
+
+#: src/ui/User/UserEmailsFormView.js:66
+msgid "Unverified email"
+msgstr ""
+
+#: src/ui/User/UserEmailsFormView.js:73
+msgid "Make primary"
+msgstr ""
+
+#: src/ui/User/UserEmailsFormView.js:78
+msgid "Re-send verification email"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:178
+#: src/components/Event/_EventForm.js:191
+#: src/ui/Attachments/AttachmentItem.js:104
+#: src/ui/BadgeClass/FilePreview.js:105
+#: src/ui/Competence/CompetenceReviewRequestItem.js:113
+#: src/ui/Form/CoHosts.js:59 src/ui/Form/Material.js:70
+#: src/ui/Form/Videos.js:56 src/ui/User/UserEmailsFormView.js:83
+msgid "Remove"
+msgstr ""
+
+#: src/components/Dashboard/PersonalSettingsView.js:10
+#: src/components/Dashboard/personalDashboardSettingsRoute.js:15
+#: src/components/UserSettings/UserDashboardMenu.js:66
+#: src/components/UserSettings/UserProfileDropDown.js:159
+#: src/ui/User/UserFormView.js:30
+msgid "Personal settings"
+msgstr ""
+
+#: src/components/PlaylistCreate/playlistUtils.js:12
+#: src/components/Space/spaceFormTranslations.js:4
+#: src/ui/Competence/ReviewRequestInvite.js:32
+#: src/ui/Endorsement/HandleEndorsementRequest.js:17
+#: src/ui/Endorsement/RequestEndorsement.js:30 src/ui/Form/FormField.js:56
+#: src/ui/InviteEmails/InviteEmailsToOrganisation.js:58
+#: src/ui/InviteEmails/InviteEmailsToProject.js:60
+#: src/ui/User/UserPasswordForm.js:28 src/ui/User/UserPersonalForm.js:27
+msgid "Required"
+msgstr ""
+
+#: src/ui/User/UserPasswordForm.js:29
+msgid "Password is invalid"
+msgstr ""
+
+#: src/ui/User/UserPasswordForm.js:32
+msgid "Password must be at least ${ min } character long"
+msgid_plural "Password must be at least ${ min } characters long"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/User/UserPasswordForm.js:38
+msgid "Passwords do not match"
+msgstr ""
+
+#: src/ui/User/UserPasswordForm.js:39
+msgid "You already have a password"
+msgstr ""
+
+#: src/ui/User/UserPasswordForm.js:40
+msgid "Primary email must be verified to create password"
+msgstr ""
+
+#: src/ui/User/UserPasswordFormView.js:13
+msgid "Change"
+msgstr ""
+
+#: src/ui/User/UserPasswordFormView.js:17
+msgid "Create password"
+msgstr ""
+
+#: src/ui/User/UserPasswordFormView.js:17
+msgid "Change password"
+msgstr ""
+
+#: src/ui/User/UserPasswordFormView.js:25
+msgid "Current password"
+msgstr ""
+
+#: src/ui/User/UserPasswordFormView.js:36
+msgid "New password"
+msgstr ""
+
+#: src/ui/User/UserPasswordFormView.js:47
+msgid "Repeat new password"
+msgstr ""
+
+#: src/ui/User/UserPasswordFormView.js:53
+msgid "Changed."
+msgstr ""
+
+#: src/components/Event/EventCreate.js:63 src/components/Event/EventEdit.js:57
+#: src/components/PlaylistCreate/PlaylistCreateStep1.js:28
+#: src/components/PlaylistCreate/PlaylistCreateStep2.js:20
+#: src/components/PlaylistCreate/PlaylistCreateStep3.js:16
+#: src/components/PlaylistCreate/PlaylistCreateStep4.js:27
+#: src/components/PlaylistCreate/PlaylistEditStep1.js:28
+#: src/components/PlaylistCreate/PlaylistEditStep2.js:20
+#: src/components/PlaylistCreate/PlaylistEditStep3.js:16
+#: src/components/PlaylistCreate/PlaylistEditStep4.js:27
+#: src/components/Space/SpaceCreate.js:52 src/components/Space/SpaceEdit.js:56
+#: src/ui/BadgeClass/UserBadgeQuickControl.js:66
+#: src/ui/Form/ActivitySearch/NewActivityQuick.js:42
+#: src/ui/User/UserPersonalForm.js:25
+msgid "Please fix errors above"
+msgstr ""
+
+#: src/ui/User/UserPersonalForm.js:30
+msgid "Name cannot be shorter then ${ min } character"
+msgid_plural "Name cannot be shorter then ${ min } characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/User/UserPersonalForm.js:38
+msgid "Name cannot be longer then ${ max } character"
+msgid_plural "Name cannot be longer then ${ max } characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/User/UserPersonalForm.js:44
+msgid "Email is not confirmed"
+msgstr ""
+
+#: src/components/Form/Uploader/Cropper.js:106
+#: src/ui/Form/ActivitySearch/NewActivityQuick.js:25
+#: src/ui/Form/Uploader/Cropper.js:121 src/ui/User/UserPersonalFormView.js:15
+#: src/ui/User/UserPrivacyFormView.js:12
+msgid "Save"
+msgstr ""
+
+#: src/ui/User/UserPersonalFormView.js:26
+msgid "Personal information"
+msgstr ""
+
+#: src/ui/User/UserPersonalFormView.js:43
+msgid "Display name"
+msgstr ""
+
+#: src/ui/User/UserPersonalFormView.js:46
+msgid "Account display name tooltip."
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:49 src/ui/User/UserPersonalFormView.js:56
+msgid "Country"
+msgstr ""
+
+#: src/ui/User/UserPersonalFormView.js:65
+msgid "Language"
+msgstr ""
+
+#: src/ui/User/UserPersonalFormView.js:75
+msgid "Time zone"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:87
+#: src/ui/User/UserPrivacyFormView.js:15
+msgid "View policy - available for anyone"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:88
+#: src/ui/User/UserPrivacyFormView.js:16
+msgid "View policy - visible to authorized users"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:89
+#: src/ui/User/UserPrivacyFormView.js:17
+msgid "View policy - visible for organisation users"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:90
+#: src/ui/User/UserPrivacyFormView.js:18
+msgid "View policy - visible to project users"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:91
+#: src/ui/User/UserPrivacyFormView.js:19
+msgid "View policy - visible to no one (except owner)"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:23
+msgid "Email policy - available for anyone"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:24
+msgid "Email policy - email visible to authorized users"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:25
+msgid "Email policy - email visible for organisation users "
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:26
+msgid "Email policy - email visible to project users"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:27
+msgid "Email policy - visible to no one"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:32
+msgid "Privacy settings"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:37
+msgid "Email visibility policy"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:40
+msgid "Select who can view your email"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:48
+msgid "New badge visibility policy"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:51
+msgid "Select default policy for new badges"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:59
+msgid "New badge evidence policy"
+msgstr ""
+
+#: src/ui/User/UserPrivacyFormView.js:62
+msgid "Select default policy for new badge evidence"
+msgstr ""
+
+#: src/ui/Uploader/FileUploader.js:38
+msgid "Uploading...."
+msgstr ""
+
+#: src/ui/Uploader/FileUploader.js:47
+msgid "Failed to upload"
+msgstr ""
+
+#: src/ui/Uploader/FileUploader.js:49
+msgid "Processing...."
+msgstr ""
+
+#: src/ui/Uploader/FileUploader.js:52
+msgid "Failed to upload file"
+msgstr ""
+
+#: src/ui/Uploader/FileUploaderFinished.js:16
+msgid "OK"
+msgstr ""
+
+#: src/ui/Uploader/FileUploaderWait.js:50
+msgid "Click here to select a file"
+msgstr ""
+
+#: src/ui/Share/Share.js:57
+msgid "Share:"
+msgstr ""
+
+#: src/components/Form/Search.js:85 src/ui/Search/SearchBar.js:58
+msgid "Try programming"
+msgstr ""
+
+#: src/ui/Search/SearchBar.js:71
+msgid "Events"
+msgstr ""
+
+#: src/components/Dashboard/OrganisationDashboardMenu.js:25
+#: src/components/Dashboard/dashboardPlaylistsRoute.js:26
+#: src/components/UserSettings/UserHeaderLeftMenu.js:24
+#: src/components/UserSettings/UserHeaderRightFromTabletMenu.js:26
+#: src/ui/Search/SearchBar.js:81
+msgid "Playlists"
+msgstr ""
+
+#: src/ui/Competence/CompetenceReviewRequestItem.js:112 src/ui/Qr/Qr.js:44
+msgid "Download QR code"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationInvitesListView.js:33
+#: src/ui/ProjectUser/ProjectInvitesListView.js:33
+msgid "${ total } invite"
+msgid_plural "${ total } invites"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/Dashboard/OrganisationDashboardUsersView.js:33
+#: src/ui/OrganisationUser/OrganisationInvitesListView.js:34
+#: src/ui/OrganisationUser/OrganisationUserListView.js:44
+#: src/ui/ProjectUser/ProjectInvitesListView.js:34
+#: src/ui/ProjectUser/ProjectUserListView.js:46
+msgid "Invite user"
+msgstr ""
+
+#: src/ui/Competence/competenceUtils.js:10
+#: src/ui/ProjectUser/ProjectUserAdd.js:14
+msgid "Participants"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserAdd.js:16
+#: src/ui/ProjectUser/ProjectUserAdd.js:16
+msgid "Admins"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserAdd.js:18
+#: src/ui/ProjectUser/ProjectUserAdd.js:18
+msgid "Owners"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsToProject.js:42
+#: src/ui/ProjectUser/ProjectUserAdd.js:72
+msgid "Scan code or access url to join this activity"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsView.js:10
+#: src/ui/OrganisationUser/OrganisationUserInviteDialog.js:17
+#: src/ui/ProjectUser/ProjectUserInviteDialog.js:17
+msgid "Add new users"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserInviteDialog.js:23
+#: src/ui/ProjectUser/ProjectUserInviteDialog.js:23
+msgid "Upload users"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItem.js:29
+#: src/ui/ProjectUser/ProjectUserItem.js:29
+msgid "Do you want to remove this user?"
+msgstr ""
+
+#: src/ui/ProjectUser/ProjectUserItem.js:36
+msgid "Do you want to remove invite?"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:41
+#: src/ui/ProjectUser/ProjectUserItemView.js:41
+msgid "Waiting for user to accept invite"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:53
+#: src/ui/ProjectUser/ProjectUserItemView.js:52
+msgid "Grant owner"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:59
+#: src/ui/ProjectUser/ProjectUserItemView.js:58
+msgid "Grant admin"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:65
+#: src/ui/ProjectUser/ProjectUserItemView.js:64
+msgid "Revoke owner"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:71
+#: src/ui/ProjectUser/ProjectUserItemView.js:69
+msgid "Revoke admin"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:77
+#: src/ui/ProjectUser/ProjectUserItemView.js:76
+msgid "Remove user"
+msgstr ""
+
+#: src/ui/ProjectUser/ProjectUserItemView.js:82
+msgid "Cancel invite"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:276
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:92
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:182
+#: src/ui/ProjectUser/ProjectUserItemView.js:91
+#: src/ui/ProjectUser/ProjectUserItemView.js:186
+msgid "Badges"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:96
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:183
+#: src/ui/ProjectUser/ProjectUserItemView.js:95
+#: src/ui/ProjectUser/ProjectUserItemView.js:187
+msgid "Quests"
+msgstr ""
+
+#: src/ui/ProjectUser/ProjectUserItemView.js:99
+#: src/ui/ProjectUser/ProjectUserItemView.js:188
+msgid "Certificates"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:140
+#: src/ui/ProjectUser/ProjectUserItemView.js:144
+msgid "All users"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:150
+#: src/ui/ProjectUser/ProjectUserItemView.js:154
+msgid "Joined users"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:160
+#: src/ui/ProjectUser/ProjectUserItemView.js:164
+msgid "Invited users"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:174
+#: src/ui/ProjectUser/ProjectUserItemView.js:178
+msgid "By name (a-z)"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:175
+#: src/ui/ProjectUser/ProjectUserItemView.js:179
+msgid "By name (z-a)"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:176
+#: src/ui/ProjectUser/ProjectUserItemView.js:180
+msgid "By join date (asc)"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:177
+#: src/ui/ProjectUser/ProjectUserItemView.js:181
+msgid "By join date(desc)"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserListView.js:20
+#: src/ui/ProjectUser/ProjectUserListView.js:20
+msgid "Sorry, no invited users found for query '${ text }"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserListView.js:24
+#: src/ui/ProjectUser/ProjectUserListView.js:24
+msgid "Sorry no users found for query '${ text }'"
+msgstr ""
+
+#: src/ui/ProjectUser/ProjectUserListView.js:25
+msgid "Project does not have any users"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserListView.js:43
+#: src/ui/ProjectUser/ProjectUserListView.js:45
+msgid "user in list"
+msgid_plural "users in list"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Project/ActivityItem.js:139
+msgid "Unknown duration"
+msgstr ""
+
+#: src/ui/Project/ActivityItem.js:144
+msgid "Expired"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:229
+#: src/ui/Project/ActivityItem.js:146
+msgid "You have completed this activity"
+msgstr ""
+
+#: src/ui/Project/ActivityItem.js:157
+msgid "Mandatory"
+msgstr ""
+
+#: src/components/Form/FormField.js:40 src/ui/Project/ActivityItem.js:157
+msgid "Optional"
+msgstr ""
+
+#: src/ui/Project/ActivityItem.js:160
+msgid "View activity details"
+msgstr ""
+
+#: src/ui/Project/ActivityStats.js:43
+msgid "Activities: ${ activities }"
+msgstr ""
+
+#: src/ui/Project/ActivityStats.js:46
+msgid "Started: ${ started }"
+msgstr ""
+
+#: src/ui/Project/ActivityStats.js:49
+msgid "Joined (${ joined })"
+msgstr ""
+
+#: src/ui/Project/ActivityStats.js:52
+msgid "Added to Playlist (${ added })"
+msgstr ""
+
+#: src/ui/Project/ActivityStats.js:55
+msgid "Completed the playlist: ${ completed }"
+msgstr ""
+
+#: src/ui/Project/ActivityStats.js:58
+msgid "Time to pass: ${ time }"
+msgstr ""
+
+#: src/ui/Notification/NotificationBellContextView.js:131
+#: src/ui/Project/DetailBox.js:61
+msgid "See all"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:268
+#: src/components/Dashboard/OrganisationDashboardMenu.js:46
+#: src/components/Dashboard/dashboardUsersRoute.js:42
+#: src/ui/OrganisationUser/OrganisationUserAdd.js:14
+msgid "Users"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsToOrganisation.js:41
+#: src/ui/OrganisationUser/OrganisationUserAdd.js:71
+msgid "Scan code or access url to join this organisation"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItem.js:36
+msgid "Do you want to remove this invite?"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserItemView.js:83
+msgid "Remove invite"
+msgstr ""
+
+#: src/ui/OrganisationUser/OrganisationUserListView.js:25
+msgid "Organisation does not have any users"
+msgstr ""
+
+#: src/components/UI/EventList.js:79
+#: src/ui/OrganisationSwitcher/OrganisationSwitcherView.js:303
+msgid "Load more..."
+msgstr ""
+
+#: src/ui/OrganisationSwitcher/OrganisationSwitcherView.js:307
+msgid "Add organisation"
+msgstr ""
+
+#: src/components/Dashboard/BecomeOrganiser.js:13
+#: src/ui/OrganisationSwitcher/OrganisationSwitcherView.js:307
+msgid "Become an organiser"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerify.js:17
+msgid "Provide at least ${ min } file"
+msgid_plural "Provide at least ${ min } files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Organisation/OrganisationRequestVerify.js:19
+msgid "You already have a pending verification"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerify.js:47
+msgid "Please fix errors"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerify.js:52
+msgid "Organisation verify request sent."
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyBox.js:22
+msgid "Pending document check for organisation verification"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyBox.js:28
+msgid "Request verification"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyBox.js:35
+msgid "Organisation is not verified ${ requestButton }"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:39
+msgid "Verification is pending"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:42
+msgid "Request ${ name } verification"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:43
+msgid "Verified badge issuer increase trust and credibility"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:50
+msgid ""
+"Include any legal proof that your organisation is registered and operational"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:51
+msgid ""
+"This can be legal registration documents, entry in the official and public "
+"registers of companies."
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:62
+msgid "Verification request info"
+msgstr ""
+
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:63
+msgid "Add any information that would help us to do verification process"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:73
+#: src/ui/Organisation/OrganisationRequestVerifyForm.js:79
+msgid "Submit"
+msgstr ""
+
+#: src/ui/Notification/FullNotificationList.js:33
+msgid "${ total } notification"
+msgid_plural "${ total } notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Notification/FullNotificationList.js:35
+msgid "You don't have any notifications at the moment"
+msgstr ""
+
+#: src/ui/Notification/MarkAllAsRead.js:15
+msgid "Mark all as read"
+msgstr ""
+
+#: src/components/Notify/evidencesToCheckRoute.js:20
+#: src/ui/Notification/NotificationBellContextView.js:110
+msgid "Evidences to check"
+msgstr ""
+
+#: src/ui/Notification/NotificationBellContextView.js:117
+msgid "Check all evidences"
+msgstr ""
+
+#: src/components/UserSettings/UserDashboardMenu.js:36
+#: src/ui/Notification/NotificationBellContextView.js:122
+msgid "Notifications"
+msgstr ""
+
+#: src/ui/Notification/NotificationBellContextView.js:126
+msgid "You don't have any notifications"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/BadgeIssueRequestNotification.js:58
+msgid "You have badge issue request for ${ badge } by ${ issuer }"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/BadgeIssuedNotification.js:32
+msgid "You have received ${ badge } badge!"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/BadgeIssuedOnDepsNotification.js:26
+msgid "You have received ${ badge } badge after gathering requirements!"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/CertificateIssuedNotification.js:25
+msgid "View all certificates"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/CertificateIssuedNotification.js:29
+msgid "You have received ${ certificate } certificate. ${ viewAll }"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/EndorsementHandledNotification.js:59
+msgid "Unknown endorsement status"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/EndorsementHandledNotification.js:62
+msgid "Endorsement request for ${ object } was rejected"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/EndorsementHandledNotification.js:65
+msgid "Endorsement request for ${ object } was accepted"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/EndorsementHandledNotification.js:68
+msgid ""
+"Endorsement request for ${ object } was accepted, waiting for endorser "
+"verification"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/EndorsementHandledNotification.js:71
+msgid "Endorsement for ${ object } revoked"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/EndorsementRequestNotification.js:32
+msgid "${ user } requested endorsement for ${ object }"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/EvidenceCheckedNotification.js:34
+msgid "Your evidence in quest ${ quest } approved"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/EvidenceCheckedNotification.js:35
+msgid "Your evidence in quest ${ quest } rejected"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/OrganisationInviteNotification.js:30
+msgid "You have been invited to ${ organisation } by ${ issuer }"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/ProjectInviteNotification.js:33
+msgid "You have been invited to project ${ project } by ${ issuer }"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/ReadyToStartMissionNotification.js:29
+msgid ""
+"After gathering all requirement now you can start mission for "
+"${ badgeClass } !"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/_NotifyItemControl.js:32
+msgid "Accept"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/_NotifyItemControl.js:40
+msgid "Ask to improve"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/_NotifyItemControl.js:40
+msgid "Reject"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/_NotifyItemStatus.js:15
+msgid "Accepted"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/_NotifyItemStatus.js:18
+msgid "Need improvement"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/_NotifyItemStatus.js:20
+msgid "Rejected"
+msgstr ""
+
+#: src/ui/Notification/NotifyItem/_NotifyItemStatus.js:22
+msgid "Canceled"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/ActivityEvidenceChunkList.js:30
+msgid "${ total } evidence in history"
+msgid_plural "${ total } evidences in history"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Notification/EvidenceCheck/ActivityEvidenceChunkList.js:39
+msgid "Your users must first create some evidence"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceCheckItem.js:54
+#: src/ui/Notification/EvidenceCheck/EvidenceCheckRow.js:101
+msgid ""
+"${ user } has requested that you verify the evidence to complete task for "
+"${ badge }"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceCheckRow.js:115
+#: src/ui/Notification/EvidenceCheck/EvidenceChunkItem.js:131
+msgid "For criterion ${ no }"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceCheckRow.js:119
+msgid "Evidences submitted"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceCheckRow.js:131
+msgid "Type your comment here"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceCheckRow.js:138
+msgid "Please improve"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceCheckRow.js:146
+msgid "Approve"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceChunkItem.js:75
+msgid "${ user } evidences for ${ badgeClass } were approved"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceChunkItem.js:77
+msgid "${ user } was asked to improve ${ badgeClass } evidences"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceChunkItem.js:79
+msgid "User ${ user } finished task for ${ badgeClass } with evidence"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceChunkItem.js:81
+msgid "User ${ user } canceled the check for ${ badgeClass }"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceChunkItem.js:83
+msgid "User ${ user } deleted the badge ${ badgeClass }"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceChunkItem.js:85
+msgid "Unknown evidence chunk status"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceChunkItem.js:116
+msgid "Submitted: ${ ago }"
+msgstr ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceRowList.js:31
+#: src/ui/Notification/EvidenceCheck/ProjectEvidenceRowList.js:30
+msgid "${ total } evidence to check"
+msgid_plural "${ total } evidences to check"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Notification/EvidenceCheck/EvidenceRowList.js:33
+#: src/ui/Notification/EvidenceCheck/ProjectEvidenceRowList.js:32
+msgid "You don't have any evidences to check at the moment"
+msgstr ""
+
+#: src/ui/List/List.js:63
+msgid "Load ${ next } more"
+msgstr ""
+
+#: src/ui/List/OrderBy.js:38
+msgid "Change order"
+msgstr ""
+
+#: src/ui/List/SearchList.js:77
+msgid "Search people"
+msgstr ""
+
+#: src/ui/IssueBadge/IssueBadge.js:116
+msgid "Issued."
+msgstr ""
+
+#: src/ui/IssueBadge/IssueBadge.js:122
+msgid "Already has this badge"
+msgstr ""
+
+#: src/ui/IssueBadge/IssueBadge.js:123
+msgid "User does not meet badge dependencies yet"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:178
+#: src/ui/Badge/BadgeClassListItem.js:22 src/ui/BadgeClass/BadgeClass.js:187
+#: src/ui/IssueBadge/IssueBadgeFormView.js:44
+msgid "Issue badge"
+msgstr ""
+
+#: src/ui/Badge/BadgeClassListItem.js:22
+#: src/ui/IssueBadge/IssueBadgeFormView.js:44
+msgid "Invite to start mission"
+msgstr ""
+
+#: src/ui/IssueBadge/IssueBadgeFormView.js:70
+msgid "Issue"
+msgstr ""
+
+#: src/ui/IssueBadge/IssueBadgeQrCode.js:18
+msgid "Scan code or access url to get this badge"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsManyView.js:21
+msgid "Enter multiple email addresses"
+msgstr ""
+
+#: src/components/PlaylistCreate/playlistUtils.js:35
+#: src/ui/InviteEmails/InviteEmailsManyView.js:33
+msgid "Back"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsSingleView.js:63
+msgid "Team"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsSingleView.js:68
+msgid "${ addAnotherButton } or ${ addManyButton }"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsToOrganisation.js:16
+#: src/ui/InviteEmails/InviteEmailsToProject.js:16
+msgid "Earner"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsToOrganisation.js:18
+#: src/ui/InviteEmails/InviteEmailsToProject.js:18
+msgid "Admin"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsToOrganisation.js:20
+#: src/ui/InviteEmails/InviteEmailsToProject.js:20
+msgid "Owner"
+msgstr ""
+
+#: src/ui/Competence/ReviewRequestInvite.js:33
+#: src/ui/InviteEmails/InviteEmailsToOrganisation.js:59
+#: src/ui/InviteEmails/InviteEmailsToProject.js:61
+msgid "Please check that email you'v entered is valid"
+msgstr ""
+
+#: src/ui/InviteEmails/InviteEmailsToOrganisation.js:65
+#: src/ui/InviteEmails/InviteEmailsToProject.js:67
+msgid "${ count } user invited"
+msgid_plural "${ count } users invited"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Goal/GoalItem.js:222
+msgid "Completed ${ bar } ${ completedSteps }/${ totalSteps }"
+msgstr ""
+
+#: src/ui/Goal/GoalItem.js:223
+msgid "Not completed ${ bar } ${ completedSteps }/${ totalSteps }"
+msgstr ""
+
+#: src/ui/Goal/GoalItem.js:225
+msgid "Goals title is not editable, because it was created using an indicator"
+msgstr ""
+
+#: src/ui/Goal/GoalItem.js:253
+msgid "Edit goal title"
+msgstr ""
+
+#: src/ui/Goal/GoalItem.js:257 src/ui/Goal/GoalItem.js:293
+msgid "Add step"
+msgstr ""
+
+#: src/ui/Goal/GoalItem.js:258
+msgid "Remove goal"
+msgstr ""
+
+#: src/ui/Goal/GoalItem.js:279
+msgid "View goal step details"
+msgstr ""
+
+#: src/ui/Goal/GoalItem.js:284
+msgid "Remove goal step"
+msgstr ""
+
+#: src/ui/Form/ActionInputCopy.js:7 src/ui/Form/ActionInputCopy.js:14
+msgid "Copy"
+msgstr ""
+
+#: src/ui/Form/ActionInputCopy.js:19
+msgid "Copied"
+msgstr ""
+
+#: src/ui/Form/AdressInput.js:16
+msgid "Cannot find any addresses"
+msgstr ""
+
+#: src/components/Form/_AddressInput.js:86 src/ui/Form/AdressInput.js:16
+#: src/ui/Form/AdressInput.js:18
+msgid "Type in address to search"
+msgstr ""
+
+#: src/ui/Form/CoHosts.js:56
+msgid "Enter name of co-organiser here..."
+msgstr ""
+
+#: src/components/Form/ContactsArray.js:31 src/ui/Form/ContactsArrayField.js:31
+msgid "Facebook contact"
+msgstr ""
+
+#: src/components/Form/ContactsArray.js:33 src/ui/Form/ContactsArrayField.js:33
+msgid "Twitter contact"
+msgstr ""
+
+#: src/components/Form/ContactsArray.js:35 src/ui/Form/ContactsArrayField.js:35
+msgid "Google contact"
+msgstr ""
+
+#: src/components/Form/ContactsArray.js:37 src/ui/Form/ContactsArrayField.js:37
+msgid "Email contact"
+msgstr ""
+
+#: src/components/Form/ContactsArray.js:39 src/ui/Form/ContactsArrayField.js:39
+msgid "Phone contact"
+msgstr ""
+
+#: src/ui/Form/CountryField.js:14
+msgid "Select your country"
+msgstr ""
+
+#: src/ui/Form/LanguageField.js:14
+msgid "Select your language"
+msgstr ""
+
+#: src/ui/Form/Material.js:57
+msgid "Material URL"
+msgstr ""
+
+#: src/ui/Form/Material.js:66
+msgid "Material label"
+msgstr ""
+
+#: src/ui/Form/MultiOrganisationSelectField.js:14
+msgid "Enter organisation name here..."
+msgstr ""
+
+#: src/components/Form/_SkillSelect.js:56 src/ui/Form/SkillSelectField.js:14
+msgid "Skill (for example: CSS)"
+msgstr ""
+
+#: src/ui/Form/TimeZoneField.js:14
+msgid "Select your timezone"
+msgstr ""
+
+#: src/ui/Form/UserSelect.js:136
+msgid "Enter email or search for user"
+msgstr ""
+
+#: src/ui/Form/UserSelect.js:137
+msgid "No users found, enter a valid email"
+msgstr ""
+
+#: src/ui/Form/UserSelect.js:138
+msgid "Searching..."
+msgstr ""
+
+#: src/ui/Form/UserSelect.js:156
+msgid "And ${ other } others, restrict the search a bit more"
+msgstr ""
+
+#: src/ui/Form/Videos.js:60
+msgid "Add video"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:7
+msgid "Life skills"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:9
+msgid "Creativity and design"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:11
+msgid "Civic engagement"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:13
+msgid "Experience abroad"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:15
+msgid "Science"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:17
+msgid "Technology and computers"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:19
+msgid "Global world"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:21
+msgid "Crafts and making"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:23
+msgid "Sports and active lifestyle"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:25
+msgid "Arts and culture"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:27
+msgid "Career and job readiness"
+msgstr ""
+
+#: src/ui/Form/formUtils.js:29
+msgid "Environment end ecology"
+msgstr ""
+
+#: src/ui/Form/Uploader/_UploadFileAction.js:100
+msgid "Tap to attach a file"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/ActivityItemView.js:94
+#: src/ui/Form/ActivitySearch/ActivitySearchOption.js:101
+msgid "Created on ${ siteTitle }"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/ActivitySearch.js:163
+#: src/ui/Form/ActivitySearch/ActivitySearch.js:245
+msgid "Create your first activity"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/ActivitySearch.js:183
+msgid "Your opportunities"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/ActivitySearch.js:243
+msgid "There are no activities in your organisation"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/ActivitySearchField.js:14
+msgid "Find activities"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/ActivitySort.js:55
+msgid "Move up"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/ActivitySort.js:62
+msgid "Move down"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/NewActivityQuick.js:14
+msgid "New Activity"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/NewActivityQuick.js:19
+msgid "Type the name of activity"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/NewActivityQuick.js:45
+msgid "Please enter name for new activity"
+msgstr ""
+
+#: src/ui/Form/ActivitySearch/NewActivityQuick.js:46
+msgid "Name cannot exceed ${ max } characters"
+msgstr ""
+
+#: src/ui/Flash/FormSavedFlash.js:12
+msgid "Saved."
+msgstr ""
+
+#: src/ui/Files/FileItem.js:91
+msgid "Remove file"
+msgstr ""
+
+#: src/ui/Files/FileItem.js:92
+msgid "Download file"
+msgstr ""
+
+#: src/ui/ExternalLinkOpener/ExternalLinkOpener.js:64
+msgid "Open link on the site it was created"
+msgstr ""
+
+#: src/components/Event/EventOnOtherSite.js:71
+#: src/ui/ExternalLinkOpener/ExternalLinkOpener.js:69
+msgid "No, never mind"
+msgstr ""
+
+#: src/components/Event/EventOnOtherSite.js:80
+#: src/ui/ExternalLinkOpener/ExternalLinkOpener.js:78
+msgid "Yes, open"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementInfo.js:10
+msgid "What is an endorsement?"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementInfo.js:12
+msgid ""
+"Endorsement is an act of giving public approval and support for a badge, an "
+"activity or an organiser. It shows trust, gives visibility and creates new "
+"opportunities."
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementItem.js:59
+msgid "Waiting for endorsement to be accepted"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementItem.js:61
+msgid "Endorsement request rejected"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementItem.js:63
+msgid "Waiting for endorser organisation verification"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementItem.js:65
+msgid "Signed endorsement"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementItem.js:67
+msgid "Revoked endorsement"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementItem.js:95
+msgid "Badge class endorsement"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementItem.js:108
+msgid "Endorsed badge-class"
+msgstr ""
+
+#: src/ui/Endorsement/EndorsementItem.js:127
+msgid "Endorser"
+msgstr ""
+
+#: src/ui/Endorsement/Endorsements.js:18 src/ui/Endorsement/Endorsements.js:42
+#: src/ui/Endorsement/GivenEndorsementList.js:16
+msgid "${ total } endorsement"
+msgid_plural "${ total } endorsements"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Endorsement/Endorsements.js:24 src/ui/Endorsement/Endorsements.js:44
+#: src/ui/Endorsement/RequestEndorsementForm.js:19
+#: src/ui/Endorsement/RequestEndorsementForm.js:39
+msgid "Request endorsement"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequest.js:18
+msgid "Endorsement already handled"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequest.js:19
+msgid "Endorser cannot be from the same organisation as the object"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequest.js:20
+msgid "This organisation already endorsed"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequest.js:51
+msgid "Endorsement request handled"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:58
+msgid "Endorse badge"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:60
+msgid "Endorse project"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:62
+msgid "Endorse organisation"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:71
+msgid "Endorse"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:82
+msgid "Endorsement request already handled"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:90
+msgid "Endorsement requested by ${ user }"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:100
+msgid "Yes endorse"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:101
+msgid "No, I don't want to endorse"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:111
+msgid "Endorser organisation"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:115
+msgid "Select organisation which will endorse the object"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:122
+msgid "Endorsement text"
+msgstr ""
+
+#: src/ui/Endorsement/HandleEndorsementRequestForm.js:123
+msgid "Endorsement text will be visible for users"
+msgstr ""
+
+#: src/ui/Endorsement/RequestEndorsement.js:31
+msgid "Please enter a valid email"
+msgstr ""
+
+#: src/ui/Endorsement/RequestEndorsement.js:35
+msgid "Endorsement request sent."
+msgstr ""
+
+#: src/ui/Endorsement/RequestEndorsementForm.js:26
+msgid "Endorsement recipient"
+msgstr ""
+
+#: src/ui/Endorsement/RequestEndorsementForm.js:27
+msgid "Person within endorser organisation"
+msgstr ""
+
+#: src/ui/Endorsement/RequestEndorsementForm.js:33
+msgid "Endorsement request message"
+msgstr ""
+
+#: src/ui/Endorsement/RequestEndorsementForm.js:34
+msgid "Explain the reason for endorsement"
+msgstr ""
+
+#: src/ui/Competence/CompetenceReviewRequestItem.js:96
+msgid "Request created on ${ createdAt }"
+msgstr ""
+
+#: src/ui/Competence/CompetenceReviewRequestItem.js:99
+#: src/ui/Competence/RequestedReviews.js:24
+msgid "Invite to review"
+msgstr ""
+
+#: src/ui/Competence/CompetenceReviewRequestItem.js:108
+msgid "View details"
+msgstr ""
+
+#: src/ui/Competence/CompetenceReviewRequestItem.js:119
+msgid "Areas"
+msgstr ""
+
+#: src/ui/Competence/CompetenceReviewRequestItem.js:128
+msgid "Teams"
+msgstr ""
+
+#: src/ui/Competence/CompetenceReviewRequests.js:28
+msgid "${ total } request"
+msgid_plural "${ total } requests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Competence/RequestedReviewItem.js:33
+msgid "Review requested ${ ago }"
+msgstr ""
+
+#: src/ui/Competence/RequestedReviewItem.js:34
+msgid "Review in progress, started ${ ago }"
+msgstr ""
+
+#: src/ui/Competence/RequestedReviewItem.js:35
+msgid "Review finished ${ ago }"
+msgstr ""
+
+#: src/ui/Competence/RequestedReviews.js:32
+msgid "${ total } review for specific people"
+msgid_plural "${ total } reviews for specific people"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Competence/ReviewRequestInvite.js:41
+msgid "Review requests sent."
+msgstr ""
+
+#: src/ui/Competence/ReviewRequestInviteView.js:9
+msgid "Request review"
+msgstr ""
+
+#: src/ui/Competence/ReviewRequestQuickInfoView.js:45
+msgid "request-review-${ name }"
+msgstr ""
+
+#: src/ui/Competence/ReviewRequestQuickInfoView.js:91
+msgid "Review request from ${ reviewTeams }"
+msgstr ""
+
+#: src/ui/Competence/ReviewRequestQuickInfoView.js:91
+msgid "Review request"
+msgstr ""
+
+#: src/ui/Competence/competenceUtils.js:12
+msgid "Trainers"
+msgstr ""
+
+#: src/ui/Competence/competenceUtils.js:14
+msgid "Contractors"
+msgstr ""
+
+#: src/ui/Competence/withCompetenceReviewRequest.js:18
+msgid "Are you sure you want to remove it?"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:226
+#: src/components/UI/DefaultBottomMenu.js:32 src/ui/Card/ActivityCard.js:89
+msgid "Playlist"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:189
+#: src/ui/Card/ActivityCardAction.js:12 src/ui/Card/ActivityCardAction.js:27
+msgid "Join"
+msgstr ""
+
+#: src/ui/Card/ActivityCardAction.js:44
+msgid "View joined"
+msgstr ""
+
+#: src/ui/Card/ActivityCardAction.js:68
+msgid "View"
+msgstr ""
+
+#: src/ui/BugReport/BugReportButton.js:41
+msgid "Click here if you need help or want to report a bug"
+msgstr ""
+
+#: src/ui/BugReport/BugReportForm.js:19
+msgid "Please provide a description"
+msgstr ""
+
+#: src/ui/BugReport/BugReportForm.js:23
+msgid "Please provide an email"
+msgstr ""
+
+#: src/ui/BugReport/BugReportForm.js:46
+msgid "Your request was sent. Thank You!"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:24
+msgid "Describe the feature"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:26
+msgid "Describe your problem"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:33
+msgid "Request a feature"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:35
+msgid "Report a bug"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:44
+msgid "Support is available only in English."
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:48
+msgid "What type of support you need?"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:53
+msgid "Bug report"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:57
+msgid "Feature request"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:61
+msgid "Other/Unclear"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:79
+msgid "Your contact email"
+msgstr ""
+
+#: src/ui/BugReport/BugReportFormView.js:86
+msgid "Submit report"
+msgstr ""
+
+#: src/ui/BottomBar/CookieWarningView.js:23
+msgid "I agree"
+msgstr ""
+
+#: src/ui/BottomBar/CookieWarningView.js:27
+msgid ""
+"We use cookies to ensure you get the best experience of using this site. \n"
+"Visit Privacy policy to find out how we use cookies. ${ button }"
+msgstr ""
+
+#: src/ui/BottomBar/NotVerifiedPrimaryEmailView.js:27
+msgid "OK, done"
+msgstr ""
+
+#: src/ui/BottomBar/NotVerifiedPrimaryEmailView.js:34
+msgid ""
+"Your primary email ${ primary } is not verified, please check your mailbox. "
+"${ button }"
+msgstr ""
+
+#: src/ui/BottomBar/NotVerifiedPrimaryEmailView.js:41
+msgid "You don't have a primary email, please visit settings to add it"
+msgstr ""
+
+#: src/ui/BadgeClass/AddEvidence.js:37
+msgid "Update evidence"
+msgstr ""
+
+#: src/ui/BadgeClass/AddEvidence.js:37
+msgid "Add evidence"
+msgstr ""
+
+#: src/ui/BadgeClass/AddEvidence.js:57
+msgid "Cancel check to improve"
+msgstr ""
+
+#: src/ui/Attachments/AttachmentUploadItem.js:37
+#: src/ui/BadgeClass/AddEvidenceForm.js:39
+msgid "Add file"
+msgstr ""
+
+#: src/ui/BadgeClass/AddEvidenceForm.js:59
+msgid "Comment evidence here..."
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:96
+msgid "User had to finish all tasks to get this badge"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:98
+msgid "You had finished all tasks and got this badge"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:100
+msgid "You have to finish all tasks to get the badge"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:105
+msgid "User had to finish ${ minTasksRequired } task and get this badge"
+msgid_plural ""
+"User had to finish ${ minTasksRequired } tasks and get this badge"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/BadgeClass.js:112
+msgid "You had to finish ${ minTasksRequired } task and got this badge"
+msgid_plural "You had to finish ${ minTasksRequired } tasks and got this badge"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/BadgeClass.js:119
+msgid "You have to finish ${ minTasksRequired } task to get the badge"
+msgid_plural "You have to finish ${ minTasksRequired } tasks to get the badge"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/Event/EventOverview.js:107
+#: src/components/Playlist/PlaylistOverview.js:140
+#: src/ui/Badge/ProjectBadges.js:36 src/ui/BadgeClass/BadgeClass.js:195
+msgid "Edit badges"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:205
+msgid "Badge owner: ${ owner }"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:210
+msgid "Badge class information"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:222
+msgid "Tasks"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:237
+msgid "Badge class users"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClass.js:244
+msgid "Badge class endorsements"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClassCriterion.js:71
+msgid "Task no.${ no }"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClassDeps.js:30
+msgid "You have to get all badges from the list below"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeClassDeps.js:33
+msgid "You have to get ${ count } badge from the list below"
+msgid_plural "You have to get ${ count } badges from the list below"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/BadgeClassDeps.js:41
+msgid "You have to get ${ count } badge in this project"
+msgid_plural "You have to get ${ count } badges in this project"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/BadgeClassUsers.js:16
+msgid "${ total } issued badge"
+msgid_plural "${ total } issued badges"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/BadgeEnableShare.js:28
+msgid "Badge must be visible to everyone to share it"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeEnableShare.js:35
+msgid "Change policy to enable sharing"
+msgstr ""
+
+#: src/ui/BadgeClass/BadgeThumb.js:137
+msgid "Not published yet"
+msgstr ""
+
+#: src/ui/BadgeClass/DisplayEvidence.js:15
+msgid "You are not allowed to view these evidence"
+msgstr ""
+
+#: src/ui/BadgeClass/DisplayEvidence.js:19
+msgid "No evidence supplied"
+msgstr ""
+
+#: src/ui/BadgeClass/EvidenceFiles.js:34
+msgid "Evidence"
+msgstr ""
+
+#: src/ui/BadgeClass/FeedbackList.js:55
+msgid "Approved by ${ name }"
+msgstr ""
+
+#: src/ui/BadgeClass/FeedbackList.js:57
+msgid "Asked to improve by ${ name }"
+msgstr ""
+
+#: src/ui/Attachments/AttachmentItem.js:97 src/ui/BadgeClass/FilePreview.js:104
+msgid "Download"
+msgstr ""
+
+#: src/ui/BadgeClass/GainedBadgeModal.js:24
+msgid "Congrats! You have gained a badge!"
+msgstr ""
+
+#: src/ui/BadgeClass/UserBadgeQuickControl.js:22
+msgid "Badge view policy control"
+msgstr ""
+
+#: src/ui/BadgeClass/UserBadgeQuickControl.js:27
+msgid "Badge view policy"
+msgstr ""
+
+#: src/ui/BadgeClass/UserBadgeQuickControl.js:35
+msgid "Badge evidence view policy"
+msgstr ""
+
+#: src/ui/BadgeClass/UserBadgeQuickControl.js:45
+msgid "Save settings"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:6
+msgid "Task finished"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:8
+msgid "Waiting for task approve"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:10
+msgid "Waiting for evidence"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:12
+msgid "Waiting for evidence fix"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:23
+msgid "Issued by activity staff or QR code scan"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:27
+msgid "Checked by"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:28
+msgid "Will be checked by"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:32
+msgid "${ checkedBy }: Only upload required"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:35
+msgid "${ checkedBy }: One project member"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:37
+msgid "${ checkedBy }: ${ count } project member"
+msgid_plural "${ checkedBy }: ${ count } project members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:44
+msgid "${ checkedBy }: One project manager"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:46
+msgid "${ checkedBy }: ${ count } project manager"
+msgid_plural "${ checkedBy }: ${ count } roject managers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:53
+msgid "${ checkedBy }: One member within your team"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:55
+msgid "${ checkedBy }: ${ count } member within your team"
+msgid_plural "${ checkedBy }: ${ count } members within your team"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:62
+msgid "${ checkedBy }: One manager within your team"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:64
+msgid "${ checkedBy }: ${ count } manager within your team"
+msgid_plural "${ checkedBy }: ${ count } managers within your team"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:80
+msgid "Request approve"
+msgstr ""
+
+#: src/ui/BadgeClass/badgeClassUtils.js:82
+msgid "Save evidence"
+msgstr ""
+
+#: src/components/Dashboard/PersonalBadgesView.js:20
+#: src/ui/Badge/ProjectBadges.js:33
+msgid "${ total } badge"
+msgid_plural "${ total } badges"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/Badge/ProjectBadges.js:43
+msgid "Sorry there are no badges in this activity"
+msgstr ""
+
+#: src/ui/Badge/ProjectBadges.js:52
+msgid "Create badges"
+msgstr ""
+
+#: src/ui/Attachments/AttachmentUploadingItem.js:50
+msgid "Failed"
+msgstr ""
+
+#: src/ui/Attachments/AttachmentUploadingItem.js:52
+msgid "Uploading...${ progress }"
+msgstr ""
+
+#: src/ui/Attachments/AttachmentUploadingItem.js:54
+msgid "Processing..."
+msgstr ""
+
+#: src/ui/Attachments/withAttachmentsUpload.js:40
+msgid "Failed to upload ${ name }, please try again"
+msgstr ""
+
+#: src/ui/Activity/withActivity.js:48
+msgid "Are you sure you want to delete this activity?"
+msgstr ""
+
+#: src/ui/Activity/withActivity.js:59
+msgid "Activity deleted"
+msgstr ""
+
+#: src/ui/Activity/withActivity.js:68
+msgid "Are you sure you want to leave this event?"
+msgstr ""
+
+#: src/components/Activity/activityViewRoute.js:24
+#: src/routes/space/spaceViewRoute.js:23
+msgid "Congratulations! You have joined ${ name }"
+msgstr ""
+
+#: src/routes/space/verifiedSpacesRoute.js:13
+msgid "All partners"
+msgstr ""
+
+#: src/routes/notify/emailVerifyRoute.js:47
+msgid "Email verified"
+msgstr ""
+
+#: src/routes/notify/emailVerifyRoute.js:50
+msgid "Email verified, thank you"
+msgstr ""
+
+#: src/routes/notify/emailVerifyRoute.js:51
+msgid "You can close this window now."
+msgstr ""
+
+#: src/routes/notify/handleNotificationRoute.js:48
+msgid "Permission denied"
+msgstr ""
+
+#: src/routes/notify/handleNotificationRoute.js:53
+msgid "Sorry, the link is already used or is for different user"
+msgstr ""
+
+#: src/routes/not-found/NotFound.js:9
+msgid "Sorry, the page you were trying to view does not exist."
+msgstr ""
+
+#: src/routes/home/HomeDashboard.js:98
+msgid "Featured Opportunities"
+msgstr ""
+
+#: src/routes/home/HomeDashboard.js:99
+msgid "Choose your interest to find specific opportunities nearby"
+msgstr ""
+
+#: src/routes/home/HomeDashboard.js:117
+msgid "Featured Skills"
+msgstr ""
+
+#: src/routes/home/HomeDashboard.js:137
+msgid "Featured Organisers"
+msgstr ""
+
+#: src/routes/home/HomeDashboard.js:140
+msgid "Diverse opportunities made available by many partners of ${ title }"
+msgstr ""
+
+#: src/routes/home/HomeDashboard.js:148
+msgid "View all partners"
+msgstr ""
+
+#: src/routes/home/HomeDashboard.js:155
+msgid "Become a partner"
+msgstr ""
+
+#: src/components/UI/DefaultBottomMenu.js:18 src/components/UI/Header.js:72
+#: src/components/UI/Header.js:99
+#: src/components/UserSettings/UserHeaderLeftMenu.js:22
+#: src/routes/home/homeRoute.js:18
+msgid "Home"
+msgstr ""
+
+#: src/components/PlaylistCreate/playlistUtils.js:73
+#: src/routes/home/redirectRoute.js:9
+msgid "Please wait..."
+msgstr ""
+
+#: src/routes/event/eventAttendRoute.js:15
+msgid "You'r now attending event ${ name }"
+msgstr ""
+
+#: src/routes/event/eventCreateRoute.js:38
+msgid "New opportunity"
+msgstr ""
+
+#: src/routes/event/eventLeaveRoute.js:14
+msgid "You'r no longer attending the event"
+msgstr ""
+
+#: src/components/UserSettings/UserDashboardMenu.js:18
+msgid "My activities"
+msgstr ""
+
+#: src/components/Dashboard/personalDashboardPlaylistsRoute.js:19
+#: src/components/UserSettings/UserDashboardMenu.js:24
+msgid "My playlists"
+msgstr ""
+
+#: src/components/Dashboard/personalDashboardBadgesRoute.js:22
+#: src/components/UserSettings/UserDashboardMenu.js:30
+msgid "My badges"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:284
+#: src/components/UserSettings/UserDashboardMenu.js:42
+msgid "Evidences"
+msgstr ""
+
+#: src/components/Space/SpaceView.js:144
+#: src/components/UI/DefaultBottomMenu.js:25
+#: src/components/UserSettings/UserHeaderLeftMenu.js:23
+#: src/components/UserSettings/UserHeaderRightFromTabletMenu.js:27
+msgid "Opportunities"
+msgstr ""
+
+#: src/components/UI/DefaultBottomMenu.js:39 src/components/UI/Footer.js:127
+#: src/components/UserSettings/UserHeaderLeftMenu.js:25
+#: src/components/UserSettings/UserHeaderRightFromTabletMenu.js:28
+msgid "Map"
+msgstr ""
+
+#: src/components/UserSettings/UserHeaderLeftMenu.js:26
+#: src/components/UserSettings/UserProfileDropDown.js:162
+msgid "Logout"
+msgstr ""
+
+#: src/components/UserSettings/UserHeaderLeftMenu.js:27
+#: src/components/UserSettings/UserHeaderRightFromTabletMenu.js:42
+msgid "Login"
+msgstr ""
+
+#: src/components/Dashboard/dashboardRoute.js:36
+#: src/components/UserSettings/UserHeaderRightFromTabletMenu.js:25
+#: src/components/UserSettings/UserHeaderRightMobileMenu.js:55
+#: src/components/UserSettings/UserProfileDropDown.js:152
+msgid "Dashboard"
+msgstr ""
+
+#: src/components/UserSettings/UserHeaderRightFromTabletMenu.js:36
+msgid "Sign Up"
+msgstr ""
+
+#: src/components/UI/Categories.js:21
+msgid "All"
+msgstr ""
+
+#: src/components/UI/EventDateTime.js:69
+msgid "Ends: ${ eventEndsAt }"
+msgstr ""
+
+#: src/components/UI/Footer.js:86
+msgid ""
+"Connected Spaces interactive maps and playLIsts are developed by the "
+"international partnership with the co-funding of Erasmus+ programme."
+msgstr ""
+
+#: src/components/UI/Footer.js:107
+msgid "Information to Platform"
+msgstr ""
+
+#: src/components/UI/Footer.js:109
+msgid "About us"
+msgstr ""
+
+#: src/components/UI/Footer.js:110
+msgid "Blog"
+msgstr ""
+
+#: src/components/UI/Footer.js:111
+msgid "Questions & Answers"
+msgstr ""
+
+#: src/components/UI/Footer.js:116
+msgid "Legal"
+msgstr ""
+
+#: src/components/UI/Footer.js:119
+msgid "Privacy policy"
+msgstr ""
+
+#: src/components/UI/Footer.js:120
+msgid "Data security"
+msgstr ""
+
+#: src/components/UI/Footer.js:121
+msgid "Terms of Service"
+msgstr ""
+
+#: src/components/UI/Footer.js:125
+msgid "Discover"
+msgstr ""
+
+#: src/components/UI/Footer.js:128
+msgid "Open Badges"
+msgstr ""
+
+#: src/components/UI/Footer.js:129
+msgid "Cities and regions"
+msgstr ""
+
+#: src/components/UI/Footer.js:139
+msgid "Change to other language"
+msgstr ""
+
+#: src/components/UI/Footer.js:155
+msgid "Co-funded by the Erasmus+ programme of the European Union"
+msgstr ""
+
+#: src/components/UI/Header.js:76
+msgid ""
+"Platform for you to find and connect learning experience with Open Badges "
+"and Playlists"
+msgstr ""
+
+#: src/components/UI/NoResults.js:29
+msgid "No results found"
+msgstr ""
+
+#: src/components/UI/NoResults.js:31
+msgid ""
+"Unfortunately, we can’t match results to your criteria. Try changing some "
+"filters to get more results."
+msgstr ""
+
+#: src/components/UI/Verified.js:17
+msgid "Verified organisation"
+msgstr ""
+
+#: src/components/Spinner/ListSpinner.js:16
+msgid "Please wait while loading..."
+msgstr ""
+
+#: src/components/Space/SpaceCreate.js:19
+msgid "Add new place"
+msgstr ""
+
+#: src/components/Space/SpaceCreate.js:20
+msgid ""
+"Place can be an organisation, public space where youth activities will be "
+"offered"
+msgstr ""
+
+#: src/components/Space/SpaceCreate.js:58
+msgid "Organisation ${ name } created"
+msgstr ""
+
+#: src/components/Space/SpaceDeleteButton.js:44
+msgid "Delete organisation"
+msgstr ""
+
+#: src/components/Space/SpaceDeleteButton.js:47
+msgid "Are you sure you want to delete this organisation?"
+msgstr ""
+
+#: src/components/Space/SpaceDeleteButton.js:53
+msgid "Are you absolutely sure? this is not reversable"
+msgstr ""
+
+#: src/components/Space/SpaceDeleteButton.js:63
+msgid "Organisation removed, no way back"
+msgstr ""
+
+#: src/components/Space/SpaceEdit.js:31
+msgid "Update ${ name } details"
+msgstr ""
+
+#: src/components/Space/SpaceEdit.js:63
+msgid "Organisation ${ name } updated"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:29
+msgid ""
+"In order to create an organiser you must have verified email. Please check "
+"your mailbox"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:40
+msgid "Name of organisation/place"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:43
+msgid ""
+"Name editing is not allowed, when organisation is pending or already verified"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:47
+msgid "Description"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:167 src/components/Space/SpaceForm.js:55
+msgid "Timezone"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:63
+msgid "Primary language of activities"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:69
+msgid "Address"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:73
+msgid "Website"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:79
+msgid "Available for public"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:80
+msgid "Weather your organisation is publicly available"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:81 src/components/Space/SpaceForm.js:90
+msgid "Yes"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:81 src/components/Space/SpaceForm.js:90
+msgid "No"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:88
+msgid "Allow joining organisation"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:89
+msgid "Weather anyone can just join organisation by e.g. scanning qr code"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:247 src/components/Space/SpaceForm.js:98
+msgid "Media"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:102
+msgid "Add logo"
+msgstr ""
+
+#: src/components/Space/SpaceForm.js:103
+msgid "Logo"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:286 src/components/Space/SpaceForm.js:113
+msgid "You can edit these details at any time."
+msgstr ""
+
+#: src/components/Event/_EventForm.js:292
+#: src/components/PlaylistCreate/PlaylistStep4.js:36
+#: src/components/Space/SpaceForm.js:119
+msgid "Publish"
+msgstr ""
+
+#: src/components/Space/SpaceList.js:32
+msgid "${ total } organisers"
+msgstr ""
+
+#: src/components/Space/SpaceNotVerifiedEmailDialog.js:20
+msgid "Your primary email is not verified"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:260
+#: src/components/Space/SpaceView.js:77
+msgid "Overview"
+msgstr ""
+
+#: src/components/Space/SpaceView.js:103
+msgid "Edit"
+msgstr ""
+
+#: src/components/Space/SpaceView.js:114
+msgid "Create opportunity"
+msgstr ""
+
+#: src/components/Space/SpaceView.js:123
+msgid "What we do"
+msgstr ""
+
+#: src/components/Event/EventOverview.js:91
+#: src/components/Space/SpaceView.js:127
+msgid "Location"
+msgstr ""
+
+#: src/components/Space/spaceFormTranslations.js:5
+msgid "Please enter a valid website address"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:12
+#: src/components/Space/spaceFormTranslations.js:6
+msgid "Please verify your primary email first"
+msgstr ""
+
+#: src/components/Space/spaceFormTranslations.js:7
+msgid "Cannot exceed ${ max } characters"
+msgstr ""
+
+#: src/components/Space/spaceFormTranslations.js:8
+msgid "It's not allowed to create new organisers"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistActions.js:19
+msgid "Continue"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateForm.js:28
+msgid "Create learning playlist"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateInfo.js:10
+msgid "Create your playlist"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateInfo.js:11
+msgid ""
+"Organise your activities into thematic learning pathways. You can select "
+"several activities and combine them into a free-flow or strict sequence "
+"experience to complete."
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateInfo.js:16
+msgid "Combine local and digital opportunities"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateInfo.js:17
+msgid ""
+"Several activities can combine opportunities online and offline to offer "
+"best experiences to learners."
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateInfo.js:21
+msgid "Connect learning into pathways"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateInfo.js:22
+msgid ""
+"Organisers can decide the logic and sequence of activities, connect diverse "
+"and rich opportunities."
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateInfo.js:26
+msgid "Engage learners into game-like experience"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistCreateInfo.js:27
+msgid ""
+"Step-by-step experiences tend to engage better. The progress is visible and "
+"experience is immersive."
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistEditForm.js:28
+msgid "Update ${ name }"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:90
+#: src/components/PlaylistCreate/PlaylistStep1.js:44
+msgid "Basic information"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep1.js:48
+msgid "Learning playlist name"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep1.js:57
+msgid "Describe your learning playlist"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep1.js:58
+msgid "Good detailed description helps to attract the right participants"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:263
+#: src/components/PlaylistCreate/PlaylistStep1.js:65
+msgid "Links to youtube or vimeo videos"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:146
+#: src/components/Event/_EventForm.js:153
+#: src/components/PlaylistCreate/PlaylistStep1.js:73
+msgid "Organiser"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep1.js:76
+msgid "Please select the main organiser"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep1.js:82
+msgid "Upload cover for your playlist"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep1.js:85
+msgid "Add learning playlist cover image (1200x628)"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep2.js:71
+msgid "Add activities"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep2.js:72
+msgid "Find some activities for your playlist"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep2.js:73
+msgid ""
+"You can add activities created by you, or by other organisers. If "
+"opportunity will expire, your playlist list will be unpublished, unless you "
+"will take out the expired opportunity."
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep2.js:79
+msgid ""
+"Use search or copy and paste link to opportunity (you can find the link on "
+"top of the browser window)"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep3.js:17
+msgid "Set up order"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep4.js:32
+msgid "Save..."
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep4.js:36
+msgid "Save as draft"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep4.js:44
+msgid "Select mandatory activities"
+msgstr ""
+
+#: src/components/PlaylistCreate/PlaylistStep4.js:47
+msgid "Choose opportunities that are necessary to complete"
+msgstr ""
+
+#: src/components/PlaylistCreate/Step.js:20
+msgid "Step ${ current }/${ total }"
+msgstr ""
+
+#: src/components/PlaylistCreate/playlistCreateRoute.js:10
+msgid "Create a playlist"
+msgstr ""
+
+#: src/components/PlaylistCreate/playlistUtils.js:15
+msgid "At least ${ min } activity is required for playlist"
+msgid_plural "At least ${ min } activities are required for playlist"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/Event/eventFormTranslations.js:10
+#: src/components/PlaylistCreate/playlistUtils.js:21
+msgid "Not all videos are valid"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:11
+#: src/components/PlaylistCreate/playlistUtils.js:22
+msgid "Please check that you have copied a valid youtube or vimeo video link"
+msgstr ""
+
+#: src/components/PlaylistCreate/playlistUtils.js:23
+msgid "At least one activity is mandatory"
+msgstr ""
+
+#: src/components/PlaylistCreate/playlistUtils.js:32
+msgid "You can edit these details at any time"
+msgstr ""
+
+#: src/components/Playlist/PlaylistFinalizeView.js:30
+msgid "You need to finalise the following activities before publishing"
+msgstr ""
+
+#: src/components/Playlist/PlaylistFinalizeView.js:40
+msgid "Finalize"
+msgstr ""
+
+#: src/components/Playlist/PlaylistFinalizeView.js:51
+msgid "Finalize later"
+msgstr ""
+
+#: src/components/Playlist/PlaylistOverview.js:89
+msgid "Start playlist"
+msgstr ""
+
+#: src/components/Event/EventOverview.js:61
+#: src/components/Playlist/PlaylistOverview.js:107
+msgid "About"
+msgstr ""
+
+#: src/components/Playlist/PlaylistOverview.js:112
+msgid "Activities to complete"
+msgstr ""
+
+#: src/components/Event/EventOverview.js:98
+#: src/components/Playlist/PlaylistOverview.js:133
+msgid "Skills"
+msgstr ""
+
+#: src/components/Event/EventOverview.js:105
+#: src/components/Playlist/PlaylistOverview.js:138
+msgid "Badges ${ badges }"
+msgstr ""
+
+#: src/components/Event/EventOverview.js:139
+#: src/components/Playlist/PlaylistOverview.js:171
+msgid "Organisers"
+msgstr ""
+
+#: src/components/Playlist/playlistFinalizeRoute.js:26
+msgid "Finalize playlist"
+msgstr ""
+
+#: src/components/Playlist/playlistLeaveRoute.js:14
+msgid "You'r no longer watching the playlist"
+msgstr ""
+
+#: src/components/Playlist/playlistStartRoute.js:15
+msgid "You'v started playlist ${ name }"
+msgstr ""
+
+#: src/components/Notify/notificationsRoute.js:20
+msgid "Your notifications"
+msgstr ""
+
+#: src/components/NewsletterSignUp/NewsletterSignUp.js:45
+msgid "Signup for updates"
+msgstr ""
+
+#: src/components/NewsletterSignUp/NewsletterSignUp.js:49
+msgid "Your email"
+msgstr ""
+
+#: src/components/NewsletterSignUp/NewsletterSignUp.js:67
+msgid "Thank you, wait for your news letter"
+msgstr ""
+
+#: src/components/NewsletterSignUp/NewsletterSignUp.js:78
+msgid "Please enter your email"
+msgstr ""
+
+#: src/components/NewsletterSignUp/NewsletterSignUp.js:79
+msgid "Check that you'v entered a valid email"
+msgstr ""
+
+#: src/components/NewsletterSignUp/NewsletterSignUp.js:80
+msgid "You are already signed up"
+msgstr ""
+
+#: src/components/Link/RedirectPage.js:34
+msgid "Click this link"
+msgstr ""
+
+#: src/components/Link/RedirectPage.js:36
+msgid "If the page is not redirected ${ link }"
+msgstr ""
+
+#: src/components/Event/EventBadgeAfterCreate.js:66
+msgid "We automatically created a badge for this activity"
+msgstr ""
+
+#: src/components/Event/EventBadgeAfterCreate.js:69
+msgid "To edit badge information, go to Badgecraft."
+msgstr ""
+
+#: src/components/Event/EventBadgeAfterCreate.js:76
+msgid "Edit later"
+msgstr ""
+
+#: src/components/Event/EventBadgeAfterCreate.js:85
+msgid "Go to Badgecraft"
+msgstr ""
+
+#: src/components/Event/EventCreate.js:42
+msgid "Add new opportunity"
+msgstr ""
+
+#: src/components/Event/EventCreate.js:44
+msgid ""
+"Event can be any type of activity that is openly accessible to young people "
+"to participate. After saving, the event will be published on the map."
+msgstr ""
+
+#: src/components/Event/EventCreate.js:69
+msgid "Event ${ name } created"
+msgstr ""
+
+#: src/components/Event/EventCreateInfo.js:10
+msgid "Publish your activity"
+msgstr ""
+
+#: src/components/Event/EventCreateInfo.js:11
+msgid ""
+"Create and publish activities to reach your target audiences. An activity "
+"can be an event, internship or volunteering placement, a project or a course "
+"or even a digital experience. Your team will have tools to promote your "
+"activity and issue digital Open Badges to certify learning and achievements."
+msgstr ""
+
+#: src/components/Event/EventCreateInfo.js:16
+msgid "Make offers visible"
+msgstr ""
+
+#: src/components/Event/EventCreateInfo.js:17
+msgid ""
+"Published activities will become visible on the map and searchable by "
+"learners."
+msgstr ""
+
+#: src/components/Event/EventCreateInfo.js:21
+msgid "Reach target audiences"
+msgstr ""
+
+#: src/components/Event/EventCreateInfo.js:22
+msgid ""
+"Specific filters and sorting tools helps people to find opportunities that "
+"match their needs and interests."
+msgstr ""
+
+#: src/components/Event/EventCreateInfo.js:26
+msgid "Certify learning & achievements"
+msgstr ""
+
+#: src/components/Event/EventCreateInfo.js:27
+msgid ""
+"People who will join activities can earn digital badges. Badges can show "
+"their engagement, skills or achievements."
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:204
+#: src/components/Activity/ActivityLayout.js:209
+#: src/components/Event/EventDeleteButton.js:39
+msgid "Delete event"
+msgstr ""
+
+#: src/components/Event/EventDeleteButton.js:42
+msgid "Are you sure you want to delete this event?"
+msgstr ""
+
+#: src/components/Event/EventDeleteButton.js:53
+msgid "Event deleted"
+msgstr ""
+
+#: src/components/Event/EventEdit.js:24
+msgid "Update event ${ name }"
+msgstr ""
+
+#: src/components/Event/EventEdit.js:63
+msgid "Event ${ name } updated"
+msgstr ""
+
+#: src/components/Event/EventOnOtherSite.js:66
+msgid "Open activity on the site it was created"
+msgstr ""
+
+#: src/components/Event/EventOverview.js:68
+msgid "Material"
+msgstr ""
+
+#: src/components/Event/EventOverview.js:146
+msgid "Used in playlists"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:81
+msgid "ESCO skills classification"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:86
+msgid ""
+"In order to create an event you must have verified email. Please check your "
+"mailbox"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:94
+msgid "Choose the type of activity"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:96
+msgid "Event"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:97
+msgid "Internship"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:98
+msgid "Volunteering"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:99
+msgid "Digital experience"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:100
+msgid "Youth project"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:101
+msgid "Open space"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:102
+msgid "Course"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:103
+msgid "Workshop"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:112
+msgid "What is the name of your opportunity?"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:120
+msgid "Describe your opportunity"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:121
+msgid "Good detailed description helps to attract the right participants."
+msgstr ""
+
+#: src/components/Event/_EventForm.js:129
+msgid "Add a category"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:130
+msgid "This will help others find your opportunity."
+msgstr ""
+
+#: src/components/Event/_EventForm.js:137
+msgid "What skills people will improve?"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:139
+msgid "We use the ${ escoLink } of the European Commission."
+msgstr ""
+
+#: src/components/Event/_EventForm.js:159
+msgid "Co-Organisers"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:163
+msgid "Date & Location"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:168
+msgid "It will help displaying event times correctly"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:177
+msgid "Start date and time"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:182
+msgid "Add start date and time"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:190
+msgid "End date and time"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:194
+msgid "Add end date and time"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:205
+msgid "Activity duration"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:209
+msgid "Duration suggestion: ${ maybeDuration }"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:211
+msgid "How long the activity will last"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:216
+msgid "Quick values for duration"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:241
+msgid "Opportunity location"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:251
+msgid "Add opportunity page cover image"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:252
+msgid "Cover"
+msgstr ""
+
+#: src/components/Event/_EventForm.js:270
+msgid "Materials"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:4
+msgid "Please enter event name"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:5
+msgid "Please enter event location"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:6
+msgid "Please select a category"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:7
+msgid "When does event start?"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:8
+msgid "Please upload cover image"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:9
+msgid "Please select an organiser"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:13
+msgid "Please enter a valid URL"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:14
+msgid "Not all material information is valid"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:15
+msgid "Event should start before ending"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:16
+msgid "Event end has to be after start"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:17
+msgid "Duration format is invalid"
+msgstr ""
+
+#: src/components/Event/eventFormTranslations.js:18
+msgid "Invalid custom fields"
+msgstr ""
+
+#: src/components/Dashboard/BecomeOrganiser.js:21
+#: src/components/Dashboard/DashboardView.js:33
+#: src/components/Dashboard/DashboardView.js:42
+msgid "Create activity"
+msgstr ""
+
+#: src/components/Dashboard/BecomeOrganiser.js:28
+#: src/components/Dashboard/OrganisationDashboardPlaylistsView.js:34
+#: src/components/Dashboard/OrganisationDashboardPlaylistsView.js:42
+msgid "Create playlist"
+msgstr ""
+
+#: src/components/Dashboard/DashboardCommingSoonView.js:23
+#: src/components/Dashboard/PersonalCommingSoonView.js:23
+msgid "Coming soon..."
+msgstr ""
+
+#: src/components/Dashboard/DashboardView.js:65
+msgid ""
+"Sorry, there are no activities created in this organisation. ${ quickCreate }"
+msgstr ""
+
+#: src/components/Dashboard/OrganisationDashboardMenu.js:18
+msgid "Activities"
+msgstr ""
+
+#: src/components/Dashboard/OrganisationDashboardMenu.js:32
+#: src/components/Dashboard/dashboardAnalyticsRoute.js:13
+msgid "Analytics"
+msgstr ""
+
+#: src/components/Dashboard/OrganisationDashboardMenu.js:39
+#: src/components/Dashboard/dashboardSettingsRoute.js:23
+msgid "Settings"
+msgstr ""
+
+#: src/components/Dashboard/OrganisationDashboardMenu.js:53
+#: src/components/Dashboard/dashboardEndorsementsRoute.js:27
+msgid "Endorsements"
+msgstr ""
+
+#: src/components/Dashboard/OrganisationDashboardPlaylistsView.js:63
+msgid ""
+"Sorry, there are no playlsits created in this organisation. ${ quickCreate }"
+msgstr ""
+
+#: src/components/Dashboard/PersonalBadgesView.js:17
+msgid "Sorry, you don't have any badges yet"
+msgstr ""
+
+#: src/components/Dashboard/personalDashboardBadgesRoute.js:17
+msgid "Congratulations! You have received a badge!"
+msgstr ""
+
+#: src/components/Dashboard/personalDashboardRoute.js:19
+msgid "Personal dashboard"
+msgstr ""
+
+#: src/components/Badge/BadgeDetailsView.js:49
+msgid "Activity"
+msgstr ""
+
+#: src/components/Badge/BadgeDetailsView.js:53
+msgid "Issuer"
+msgstr ""
+
+#: src/components/Badge/UserBadgeView.js:34
+msgid "Back to my  badges"
+msgstr ""
+
+#: src/components/Activity/ActivityEvidencesView.js:39
+msgid "Evidences to approve"
+msgstr ""
+
+#: src/components/Activity/ActivityEvidencesView.js:42
+msgid "Evidence history"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:124
+msgid "Manage playlist"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:126
+msgid "Manage event"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:128
+msgid "Manage project"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:150
+msgid "Edit playlist"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:155
+msgid "Edit event"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:160
+msgid "Invite users"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:168
+msgid "Publish playlist"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:173
+msgid "Unpublish playlist"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:194
+msgid "I'm no longer interested in this playlist"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:199
+msgid "Delete playlist"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:214
+msgid "Activity cannot be removed, because it's used in a playlist"
+msgstr ""
+
+#: src/components/Activity/ActivityLayout.js:217
+msgid "Leave"
+msgstr ""
+
+#: src/components/Activity/activityBadgesRoute.js:38
+msgid "Badges of ${ name }"
+msgstr ""
+
+#: src/components/Activity/activityEvidencesRoute.js:30
+msgid "Evidences of ${ name }"
+msgstr ""
+
+#: src/components/Activity/activityInvitesRoute.js:27
+msgid "Invites of ${ name }"
+msgstr ""
+
+#: src/components/Activity/activityUsersRoute.js:38
+msgid "Users of ${ name }"
+msgstr ""

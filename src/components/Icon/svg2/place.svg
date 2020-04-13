@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>place</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Opportunity-Page" transform="translate(-296.000000, -425.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Top" transform="translate(0.000000, 100.000000)">
+                <path d="M301.49849,325 C298.467424,325 296,327.468994 296,330.504993 C296,333.453998 301.051778,339.630988 301.26765,339.892004 C301.324614,339.960999 301.408551,340 301.49849,340 C301.588448,340 301.672385,339.960999 301.729349,339.892004 C301.945221,339.630988 307,333.453998 307,330.504993 C307,327.468994 304.532576,325 301.49849,325 Z M301.499991,333 C300.121905,333 299,331.878091 299,330.5 C299,329.121909 300.121905,328 301.499991,328 C302.878095,328 304,329.121909 304,330.5 C304,331.878091 302.878095,333 301.499991,333 Z" id="place"></path>
+            </g>
+        </g>
+    </g>
+</svg>

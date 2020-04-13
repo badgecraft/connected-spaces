@@ -1,0 +1,15 @@
+fragment readyToStartMissionFragment on ReadyToStartMissionNotification {
+    badgeClass {
+        id
+        picture
+        name
+        perms {
+            view { value }
+        }
+        long {
+            id
+            projectId
+        }
+    }
+    created
+}

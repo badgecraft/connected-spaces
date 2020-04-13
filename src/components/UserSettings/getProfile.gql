@@ -1,0 +1,9 @@
+query getProfile {
+    me {
+        id
+        displayName
+        picture
+        defaultBadgePolicy
+        defaultEvidencePolicy
+    }
+}

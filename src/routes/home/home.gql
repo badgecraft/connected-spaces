@@ -1,0 +1,60 @@
+query homeRoute($lang:String) {
+    me {
+        id
+    }
+    site(lang:$lang) {
+        id
+        logoUrl
+        coverUrl
+        mapType
+        mapMarks {
+            id
+            location {
+                lat
+                lng
+            }
+        }
+        location {
+            lat
+            lng
+        }
+        zoom
+        title
+        description
+        categories {
+            id
+            name
+            projects(contexts:[event, playlist], siteFilter: true) {
+                total
+            }
+        }
+        coFundedBy {
+            image
+            title
+        }
+        newOrganisers
+        block1Config {
+            type
+            heading
+            subHeading
+            projectSort
+            projectOrder
+        }
+        block2Config {
+            type
+            heading
+            subHeading
+            projectSort
+            projectOrder
+        }
+    }
+    projects(contexts:[event, playlist], limit:1, sort:updatedAt, order:desc, facets:["skill"], siteFilter: true) {
+        total
+        skillFacet(lang: $lang) {
+            id
+            name
+            type
+            count
+        }
+    }
+}

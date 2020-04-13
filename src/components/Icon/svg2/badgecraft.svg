@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="22px" viewBox="0 0 124 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo Badgecraft</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer_Mobile" transform="translate(-2.000000, 0.000000)">
+            <g id="Footer">
+                <g id="Logo-Badgecraft">
+                    <g id="logo__badgecraft--black">
+                        <g id="mark">
+                            <polygon id="Rectangle" points="0 0 18.9 0 18.9 18.9 0 18.9"></polygon>
+                            <polygon id="Path-2" stroke="#121212" stroke-width="2.1" points="3.85 1.05 3.85 17.85 13.3 17.85 15.75 13.65 13.65 9.45 15.75 5.25 13.65 1.05"></polygon>
+                            <path d="M9.10000003,1.05 L13.65,9.45" id="Path-3" stroke="#121212" stroke-width="2.1"></path>
+                            <path d="M3.85,16.8 L15.4,13.3" id="Path-3-Copy" stroke="#121212" stroke-width="2.1"></path>
+                        </g>
+                    </g>
+                    <g id="Group-8" transform="translate(29.400000, 2.100000)" stroke="#000000" stroke-width="1.97647059">
+                        <ellipse id="Oval" cx="4.14184298" cy="10.2381176" rx="3.86572011" ry="3.87388235"></ellipse>
+                        <path d="M0.276122865,14.9421176 L0.276122865,0" id="Path-6"></path>
+                        <g id="Group-9" transform="translate(11.597161, 5.534118)">
+                            <path d="M7.73144022,9.408 L7.73144022,0" id="Path-6-Copy"></path>
+                            <ellipse id="Oval-Copy" cx="3.86572011" cy="4.704" rx="3.86572011" ry="3.87388235"></ellipse>
+                        </g>
+                        <g id="Group-10" transform="translate(23.194320, 0.000000)">
+                            <path d="M7.73144022,14.9421176 L7.73144022,0" id="Path-6-Copy-2"></path>
+                            <ellipse id="Oval-Copy-2" cx="3.86572011" cy="10.2381176" rx="3.86572011" ry="3.87388235"></ellipse>
+                        </g>
+                        <g id="Group-11" transform="translate(34.791481, 5.534118)">
+                            <path d="M7.73144022,10.2381176 L7.73144022,0" id="Path-6-Copy-3"></path>
+                            <ellipse id="Oval-Copy-3" cx="3.86572011" cy="4.704" rx="3.86572011" ry="3.87388235"></ellipse>
+                            <path d="M1.19417994,12.2079488 C1.88830581,12.8732268 2.8293902,13.2818824 3.86572011,13.2818824" id="Oval-Copy-10"></path>
+                            <path d="M3.86572011,13.2818824 C6.00069838,13.2818824 7.73144022,11.5474861 7.73144022,9.408" id="Oval-Copy-9"></path>
+                        </g>
+                        <g id="Group-12" transform="translate(46.388641, 6.364235)">
+                            <path d="M8.83593171,4.15058824 L0.276122865,4.15058824" id="Path-6-Copy-8"></path>
+                            <path d="M7.73144022,3.87388235 C7.73144022,1.73439621 6.00069838,0 3.86572011,0 C1.73074185,0 0,1.73439621 0,3.87388235 C0,6.0133685 1.73074185,7.7477647 3.86572011,7.7477647 C4.58871163,7.7477647 5.2653462,7.5488679 5.84410945,7.20269742" id="Oval-Copy-4"></path>
+                        </g>
+                        <path d="M63.5542063,6.90955266 C62.9753508,6.56322789 62.2985645,6.3642353 61.5753989,6.3642353 C59.4404206,6.3642353 57.7096788,8.09863149 57.7096788,10.2381176 C57.7096788,12.3776038 59.4404206,14.112 61.5753989,14.112 C62.353064,14.112 63.0770959,13.8818841 63.6833874,13.4858948" id="Oval-Copy-5"></path>
+                        <g id="Group-6" transform="translate(72.896437, 5.534118)">
+                            <path d="M7.73144022,9.408 L7.73144022,0" id="Path-6-Copy-5"></path>
+                            <ellipse id="Oval-Copy-6" cx="3.86572011" cy="4.704" rx="3.86572011" ry="3.87388235"></ellipse>
+                        </g>
+                        <g id="Group-7" transform="translate(66.778730, 5.534118)">
+                            <path d="M0.319125608,9.408 L0.319125608,0" id="Path-6-Copy-4"></path>
+                            <path d="M4.18484572,0.830117648 C2.04986746,0.830117648 0.319125608,2.56451385 0.319125608,4.704" id="Oval-Copy-7"></path>
+                        </g>
+                        <g id="Group-5" transform="translate(83.389105, 0.000000)">
+                            <path d="M12.4255289,6.64094118 L0,6.64094118" id="Path-6-Copy-9"></path>
+                            <path d="M2.48510579,14.9421176 L2.48510579,4.704" id="Path-6-Copy-6"></path>
+                            <path d="M8.83593171,14.9421176 L8.83593171,0" id="Path-6-Copy-7"></path>
+                            <path d="M6.35082589,0.830117648 C4.21584763,0.830117648 2.48510579,2.56451385 2.48510579,4.704" id="Oval-Copy-8"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

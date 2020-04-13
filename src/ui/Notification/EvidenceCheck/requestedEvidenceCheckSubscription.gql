@@ -1,0 +1,7 @@
+#import './taskToCheckFragment.gql'
+
+subscription requestedEvidenceCheckSubscription {
+    requestedTaskCheck {
+        ...taskToCheckFragment
+    }
+}

@@ -1,0 +1,56 @@
+fragment activityInListFragment on Project {
+    id
+    name
+    coverPicture
+    coverMeta {
+        id
+        dominantColor
+        dominantColorType
+    }
+    badgeClasses(withDrafts: true) {
+        total
+    }
+    type
+    site(excludeCurrent: true) {
+        id
+        siteUrl
+        logoUrl
+    }
+    contexts
+    eventStart
+    tz
+    category {
+        id
+        name
+    }
+    completed
+    organisation {
+        id
+        name
+        perms {
+            view {
+                value
+                reason
+            }
+        }
+    }
+    skills {
+        id
+        name
+    }
+    perms {
+        view {
+            value
+            reason
+        }
+        join {
+            value
+            reason
+        }
+        leave {
+            value
+            reason
+        }
+    }
+    viewerTeam
+}

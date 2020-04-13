@@ -1,0 +1,17 @@
+#import "../BadgeClass/badgeClassFragment.gql"
+
+query eventBadges ($id:ID!) {
+    maybeProject(id: $id) {
+        id
+        error
+        project {
+            id
+            badgeClasses(withDrafts: true) {
+                total
+                list {
+                    ...badgeClassFragment
+                }
+            }
+        }
+    }
+}

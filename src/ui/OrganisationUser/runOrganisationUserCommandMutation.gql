@@ -1,0 +1,14 @@
+mutation runOrganisationUserCommandMutation($id:ID!, $command:String!) {
+    runOrganisationUserCommand(id: $id, command: $command) {
+        organisationUser {
+            id
+            team
+            perms {
+                grantOwner { value }
+                grantAdmin { value }
+                revokeOwner { value }
+                revokeAdmin { value }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+#import "./userEmailsFragment.gql"
+
+mutation updateUserPrimaryEmail($email:String!) {
+    updateMe(primaryEmail: $email) {
+        ok
+        me {
+            ...userEmailsFragment
+        }
+    }
+}
